@@ -1,0 +1,30 @@
+.vehicles-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 5% 8%;
+}
+
+.vehicles-paragraph {
+    color: #8e979c;
+    font-size: 17px;
+}
+.vehicles-sec .radioLabel-container .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 9px;
+    border: solid #3f250e;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.vehicles-paragraph {
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+    .vehicles-paragraph {
+        font-size: 11px !important;
+    }
+}

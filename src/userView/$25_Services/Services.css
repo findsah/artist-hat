@@ -1,0 +1,62 @@
+
+.services{
+    padding: 52px 5px 0 129px;
+    justify-content: space-between;
+    align-items: center;
+}
+.refer .description{
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f250e;
+}
+.services .image-section{
+    text-align: center;
+}
+.refer .input-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11.1%;
+    padding: 34px 28px 34px 26px;
+    border-radius: 32px;
+    border: solid 1px #adadad;
+    background-color: #fff;
+}
+
+.refer .email-address{
+    height: 44.3%;
+    width: 74.2%;
+    border-radius: 14px;
+    border: solid 1px #adadad;
+    padding: 17px;
+
+}
+.refer .email-address::-webkit-input-placeholder {
+    font-size: 19px !important;
+    line-height: 4;
+    text-align: left;
+}
+.input-section .invite-button{
+    padding: 17px 20px;
+    width: 23.3%;
+    height: 44.3%;
+    border-radius: 20px;
+    background-color: #fed12f;
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+    .refer .description{
+        font-size: 30px !important;
+    }
+    .services .image-section{
+        margin-top: 5%;
+    }
+    .refer .input-section{
+        padding: 25px 28px 25px 26px !important;
+    }
+    
+}   

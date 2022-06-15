@@ -1,0 +1,285 @@
+.userview-account {
+    padding: 50px 76.2px 85.4px 77px;
+    object-fit: contain;
+    background-color: #f1f1f1;
+    border-radius: 2rem;
+}
+
+.account_leftBar {
+    flex: 0 0 auto;
+    width: 29.1%;
+}
+
+.account_content {
+    flex: 0 0 auto;
+    width: 70.9%;
+}
+
+.account_content .h1_heading {
+    font-size: 46px;
+    font-weight: 600;
+    color: #3f250e;
+}
+
+.account-tabs {
+    border-radius: 2rem 0 0 2rem;
+    width: 90%;
+    padding: 5%;
+}
+
+.account-navbar {
+    padding: 15% 0 100% 0;
+    padding-right: 0 !important;
+    border-right: 2px solid #B4B4B5;
+}
+
+.your-account,
+.your-account-md {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #ffd100;
+}
+
+.account_nav_item {
+    margin: 10% 0;
+}
+
+.account_content_headings {
+    font-size: 29px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.account_small_paragraphs {
+    font-size: 22px;
+}
+
+.authentication_img {
+    height: 215px;
+    width: 215px;
+}
+
+.taskCancellation_img {
+    width: 507.2px;
+    height: 388.1px;
+
+}
+
+.cancelTask-second-row {
+    margin: 3% 0 8%;
+}
+
+.cancelTask-second-row .cancelTask-description-div {
+    border: none;
+}
+
+.buttonDimensions {
+    height: 40px;
+    width: 222px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+    .account_content .h1_heading {
+        padding-left: 0 !important;
+        font-size: 35px !important;
+
+    }
+
+    .buttonDimensions {
+        width: 297px !important;
+    }
+
+    .your-account-md {
+        display: block !important;
+        font-size: 25px !important;
+    }
+
+    .update-account .for-img,
+    .update-account .enter-user-info {
+        width: 100% !important;
+    }
+
+    .enter-user-info .info-div {
+        width: 100% !important;
+    }
+
+    .enter-user-info .first-name,
+    .enter-user-info .phone-number {
+        margin-bottom: 2% !important;
+    }
+
+    .accountNotificaions-head {
+        font-size: 16px !important;
+    }
+
+    .account_small_paragraphs {
+        font-size: 15px;
+    }
+
+    .your-account {
+        display: none;
+    }
+
+    .skills-inner-sec .skills {
+        font-size: 18px !important;
+    }
+
+    .account_security_row {
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+
+    .account_content_headings {
+        font-size: 18px !important;
+    }
+
+    .taxInfo-description-div {
+        width: 90% !important;
+        justify-content: end !important;
+    }
+
+    .redemptionCode-row {
+        justify-content: center !important;
+    }
+
+    .cancelTask-first-row {
+        justify-content: center !important;
+    }
+
+    .cancelTask-description-div {
+        width: 90% !important;
+    }
+
+    .taskCancellation_img {
+        width: 362.4px !important;
+        height: 277.3px !important;
+    }
+
+    .cancelTask-second-row .cancelTask-description-div {
+        width: 90% !important;
+    }
+
+    .Account-use .radioLabel-container {
+        font-size: 18px !important;
+    }
+
+    /* Account-Balance */
+    .taxInfo-description-row {
+        justify-content: center !important;
+    }
+
+    .transactionHistory-row {
+        justify-content: center !important;
+    }
+
+    .download-transaction-history p {
+        font-size: 20px !important;
+    }
+
+    .transactionHistory-sec .h2-heading {
+        font-size: 20px !important;
+    }
+
+    .transactionHistory-sec .h4-heading {
+        font-size: 20px !important;
+    }
+
+    .transactionHistory-sec .h1-heading {
+        font-size: 20px !important;
+    }
+
+    .transactionHistory-row .download-section {
+        width: 95% !important;
+    }
+
+    .transactionHistory-row .taxInfo-description-div {
+        width: 95% !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .account_leftBar,
+    .account_content {
+        width: 100% !important;
+    }
+
+    .account_nav_item {
+        margin: 5% 0 !important;
+    }
+
+    .account-tabs {
+        padding: 4% !important;
+    }
+
+    .account-navbar {
+        border: none !important;
+        padding: 0 !important;
+    }
+
+    .userview-account .skills-inner-sec {
+        border-radius: 30px !important;
+    }
+
+    .userview-account {
+        padding: 1rem !important;
+    }
+
+    .account_content_headings {
+        font-size: 15px !important;
+    }
+
+    .account_small_paragraphs {
+        font-size: 12px !important;
+    }
+
+    .account_content .h1_heading {
+        text-align: center !important;
+        font-size: 30px !important;
+
+    }
+
+    /* account secrurity */
+    .accountSecurity-sec .authentication_img {
+        width: 130px !important;
+        height: 130px !important;
+    }
+
+    /* change password  */
+    .accountPassword-sec .label-inputfields,.account-number-details .label-inputfields{
+        font-size: 12px !important;
+    }
+
+    .accountPassword-sec .password-input-fields, .accountNumber-input-fields {
+        padding: 4px 17px !important;
+    }
+
+    .accountPassword-sec .setting-password,.account-number-details{
+        grid-gap: 15px 0 !important;
+    }
+
+    .communication-tablet-sec .communication_checkbox {
+        text-align: end !important;
+
+    }
+
+    /* Billing info  */
+    .billinInfo-sec .billing-input-group {
+        padding: 0 15px !important;
+    }
+
+
+    /* bank account  */
+    .bankAccount-sec{
+        text-align: center !important;
+    }
+
+}
+
+/* 
+ */

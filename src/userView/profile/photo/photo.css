@@ -1,0 +1,194 @@
+.gallery-con{
+  background-color: #fff;
+    border-radius: 2rem;
+    padding: 5% 8%;
+}
+
+/* input .upload-btn{
+    justify-content: center;
+    text-align: center;
+    float: center;
+    width: 25%;
+    height: 40px;
+    object-fit: contain;
+    padding: 1px;
+    font-size: 13px;
+    border-radius: 51px;
+  border: solid 1px #707070;
+  background-color: #fdd043;
+  margin-top: 5rem;
+    
+} */.gallery-con .artistGallery{
+  width: 100%;
+  padding: 0 !important;
+}
+
+::-webkit-file-upload-button {
+  width: 100%;
+  background: transparent;
+  padding: .3rem 2rem;
+  border: none;
+  border-radius: 3rem;
+}
+input[type='file'] {
+  color: transparent;
+}
+
+
+.content {
+  object-fit: contain;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+
+.heading {
+  font-family: Montserrat;
+  font-size: 29px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--mud-brown);
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  float: center;
+  width: 30%;
+  height: 40px;
+  object-fit: contain;
+  font-size: 13px;
+  border-radius: 51px;
+  border: solid 1px #707070;
+  background-color: #fdd043;
+
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+
+
+}
+.cursor{
+  cursor: pointer;
+}
+.photo_gallery .imageCut{
+  width: 10%;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+}
+.photo_gallery.galleryimges{
+  height: 120px !important;
+}
+
+.content{
+  font-size: 17px;
+}
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+  .content{
+      font-size: 11px !important;
+  }
+
+}
+@media screen and (min-width:471px) and (max-width: 990px) {
+  .heading {
+
+    text-align: center;
+    justify-content: center;
+    float: center;
+  }
+.gallery-con .artistGallery{
+  width: 40% !important;
+}
+  .content {
+
+    text-align: center;
+    justify-content: center;
+    float: center;
+  }
+}
+
+@media screen and (min-width:300px) and (max-width: 470px) {
+  .fileUpload {
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    float: center;
+    width: 40%;
+    height: 40px;
+    object-fit: contain;
+    font-size: 12px;
+    border-radius: 51px;
+    border: solid 1px #707070;
+    background-color: #fdd043;
+
+
+  }
+
+  .heading {
+
+    text-align: center;
+    justify-content: center;
+    float: center;
+  }
+
+  .content {
+
+    text-align: center;
+    justify-content: center;
+    float: center;
+  }
+}
+
+@media screen and (min-width:200px) and (max-width: 299px) {
+  .fileUpload {
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    float: center;
+    width: 50%;
+    height: 40px;
+    object-fit: contain;
+    font-size: 12px;
+    border-radius: 51px;
+    border: solid 1px #707070;
+    background-color: #fdd043;
+
+  }
+
+  .heading {
+
+    text-align: center;
+    justify-content: center;
+    float: center;
+  }
+
+  .content {
+
+    text-align: center;
+    justify-content: center;
+    float: center;
+  }
+}

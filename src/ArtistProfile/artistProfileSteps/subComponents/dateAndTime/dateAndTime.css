@@ -1,0 +1,216 @@
+.dateAndTime-Sec {
+    background: linear-gradient(to bottom, #fef9ed 0%, #fff 100%);
+    /* width: 1920px;
+    height: 850px; */
+    padding: 7rem 0;
+}
+
+.artistCal-sec {
+    padding: 3rem 0 0;
+}
+
+.headings {
+    object-fit: contain;
+    font-size: 34px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    color: #3f250e;
+}
+
+.pickTime {
+    font-size: 26px !important;
+    margin-top: 15%;
+    padding: 0 3%;
+}
+
+.project-date {
+    text-align: center;
+    font-size: 53px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: -0.66px;
+    color: #3f250e;
+    /* font-size: 25px; */
+    font-weight: bolder;
+}
+
+.yellow-heading {
+    color: #fed12f !important;
+}
+
+.artistGallerySec {
+    position: relative;
+}
+
+.artistGallerySec .imageCut {
+    width: 3.2%;
+    top: 3%;
+    right: 3%;
+}
+
+.artistGallerySec .artistDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+abbr[data-bs-original-title],
+abbr[title] {
+    text-decoration: none !important;
+}
+
+.artistTimes {
+    width: 90%;
+    border-radius: 3rem;
+    padding: 8px 60px;
+    font-size: 56px !important;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 3rem center;
+    background-size: 1em;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3f250e;
+}
+
+
+/* }
+.request-for{} */
+
+.confirm-details {
+    font-size: 17px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color: #B4B4B5;
+}
+
+.requestFor-date {
+    color: #3f250e !important;
+}
+
+.rdrNextPrevButton {
+    display: none !important;
+}
+
+.rdrDayNumber span {
+    color: #9599b2 !important;
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+.rdrDateDisplayWrapper {
+    display: none !important;
+}
+
+.rdrDefinedRangesWrapper {
+    display: none !important;
+}
+
+.rdrDateRangePickerWrapper {
+    display: block !important;
+}
+
+.rdrWeekDay {
+    font-size: 23px;
+    color: #3f250e !important;
+    font-weight: 600 !important;
+}
+
+.rdrMonthAndYearPickers select {
+    font-weight: 700 !important;
+    font-size: 50px !important;
+    color: #3f250e !important;
+    margin-bottom: 5% !important;
+}
+
+.rdrCalendarWrapper {
+    width: 100%;
+}
+
+.rdrMonth {
+    width: 100% !important;
+}
+
+.rdrStartEdge,
+.rdrEndEdge {
+    padding: 2% 0;
+    background-color: #fed12f !important;
+}
+
+.rdrEndEdge {
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+}
+
+.rdrStartEdge {
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+}
+
+.rdrInRange {
+    color: #3f250e !important;
+    background-color: #9599b2 !important;
+}
+
+.rdrInRange span {
+    color: red !important;
+}
+
+.rdrMonth {
+    height: 400px !important;
+}
+
+.rdrDay {
+    height: 20% !important;
+}
+
+.rdrDays {
+    height: 100% !important;
+}
+
+.rdrDayToday:not(.rdrDayPassive) .rdrInRange~.rdrDayNumber span:after,
+.rdrDayToday:not(.rdrDayPassive) .rdrStartEdge~.rdrDayNumber span:after,
+.rdrDayToday:not(.rdrDayPassive) .rdrEndEdge~.rdrDayNumber span:after,
+.rdrDayToday:not(.rdrDayPassive) .rdrSelected~.rdrDayNumber span:after {
+    display: none !important;
+}
+
+.rdrDay:not(.rdrDayPassive) .rdrInRange~.rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrStartEdge~.rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrEndEdge~.rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrSelected~.rdrDayNumber span {
+    color: #3f250e !important;
+    font-weight: 900;
+    font-size: 25px !important;
+}
+
+.rdrDayEndOfMonth .rdrInRange,
+.rdrDayEndOfMonth .rdrStartEdge,
+.rdrDayEndOfWeek .rdrInRange,
+.rdrDayEndOfWeek .rdrStartEdge {
+    border-radius: 0 !important;
+}
+
+.rdrDayStartOfMonth .rdrInRange,
+.rdrDayStartOfMonth .rdrEndEdge,
+.rdrDayStartOfWeek .rdrInRange,
+.rdrDayStartOfWeek .rdrEndEdge {
+    border-radius: 0 !important;
+}
+
+.rdrDayEndPreview {
+    border: none !important;
+}

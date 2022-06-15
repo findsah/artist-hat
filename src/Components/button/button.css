@@ -1,0 +1,15 @@
+.artistGallery, .artistReviews {
+    padding: .3rem 5rem;
+    background: #fff;
+    border: 2px solid #B4B4B5;
+    border-radius: 3rem;
+}
+
+.artistGallery {
+    background: #fed12f !important;
+}
+.artistReviewsText, .artistGalleryText {
+    color: #523105;
+    font-weight: bold !important;
+
+}

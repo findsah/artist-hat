@@ -1,0 +1,34 @@
+.projectDes-sec {
+    /* width: 1920px;
+  height: 850px; */
+    padding: 7rem 0;
+    z-index: -2;
+}
+.artistProfileSteps .headings {
+    font-size: 45px !important;
+}
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+    .aboutMe p {
+        font-size: 20px !important;
+    }
+    .confirmDetails-Sec .artist-img {
+        width: 20% !important;
+    }
+    .project-date {
+        font-size: 30px !important;
+    }
+    .Calendar__monthYearContainer button {
+        font-size: 35px !important;
+    }
+    .artistGallery,
+    .artistReviews {
+        height: 40px !important;
+    }
+    .helpButton {
+        width: 110px !important;
+        height: auto;
+    }
+    .artistProfileSteps .headings {
+        font-size: 30px !important;
+    }
+}

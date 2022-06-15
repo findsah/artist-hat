@@ -1,0 +1,7 @@
+#map {
+    overflow: hidden;
+    border-radius:2rem; 
+    -moz-border-radius:2rem;
+    -webkit-mask-border-radius:2rem;
+    -webkit-border-radius:2rem;
+}

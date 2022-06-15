@@ -1,0 +1,150 @@
+        .artistIntroRow {
+            position: relative;
+            top: -9rem;
+            justify-content: end;
+        }
+        
+        .aboutArtist-content {
+            display: flex;
+        }
+        
+        .artistIntroRow .artist-img {
+            left: 0;
+            width: 23%;
+            height: auto;
+            z-index: 1;
+            top: 8%;
+        }
+        
+        .artistIntroRow .artistIntro {
+            height: auto;
+            width: 35%;
+            padding: 2% 0 0 11%;
+            background-color: #f4f4f5;
+            border-radius: 66px;
+            /* margin-left: 53px; */
+        }
+        
+        .artistIntroRow .rate-section::after {
+            content: "";
+            width: 200px;
+            height: 1px;
+            background: #B4B4B5;
+            display: block;
+            margin: 10% 0 0 0;
+        }
+        
+        .ArtistName {
+            color: #fed12f;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        
+        .selectContinue {
+            padding: .3rem 3rem;
+            background: #fff;
+            border: 2px solid #B4B4B5;
+            border-radius: 3rem;
+        }
+        
+        .selectContinueText {
+            font-weight: 200;
+        }
+        /* .artistSkills {
+} */
+        
+        .artistSkills .skill {
+            margin-top: 2%;
+        }
+        
+        .artistSkills .icons {
+            text-align: center;
+            width: 45px;
+        }
+        
+        .artistIntro hr {
+            margin-bottom: 0;
+            margin-top: 12%;
+        }
+        
+        .artistIntro .rate-section {
+            padding: 0 0 0 15%;
+        }
+        
+        .rate-section h3 {
+            object-fit: contain;
+            font-size: 34px;
+            font-weight: bold;
+            font-stretch: normal;
+            line-height: 1.26;
+            letter-spacing: normal;
+            color: #523105;
+        }
+        
+        .rate-section h6 {
+            object-fit: contain;
+            font-size: 24px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #707070;
+        }
+        
+        .react-stars-wrapper-08819798224175486 {
+            justify-content: center !important;
+        }
+        
+        .artistIntroRow .select-and-continue {
+            text-align: end;
+        }
+        
+        .aboutArtistSec .aboutArtisInnerCont {
+            margin: 4% auto !important;
+        }
+        
+        .react-stars span {
+            font-size: 34px !important;
+        }
+        
+        .artistSkill {
+            color: #523105;
+            font-size: 21px;
+            font-weight: bold !important;
+            margin-left: 25px;
+        }
+        
+        @media only screen and (max-width: 1919px) and (min-width: 1080px) {
+            .artistIntroRow {
+                top: -7rem !important;
+                justify-content: center !important;
+            }
+            .aboutArtist-content {
+                display: block !important;
+            }
+            .artistIntroRow .artistIntro {
+                margin: auto;
+                width: 70% !important;
+                padding: 2% 0 2% 15%;
+            }
+            .artistIntro .rate-section {
+                padding: 0 0 0 10%;
+            }
+            .artistIntroRow .select-and-continue {
+                margin: auto;
+                width: 70% !important;
+                padding: 2% 0 0 20%;
+            }
+            .artistIntroRow .artist-img {
+                left: 12% !important;
+                width: 20% !important;
+                top: 4% !important;
+            }
+            .artistIntroRow .rate-section::after {
+                width: 190px !important;
+            }
+            .artistSkill {
+                font-size: 20px !important;
+            }
+        }

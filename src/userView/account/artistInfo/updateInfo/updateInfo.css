@@ -1,0 +1,36 @@
+.artistBasic-info-div{
+    padding-top: 3rem;
+    padding-bottom: 13rem;
+}
+.birthday,.address{
+    border: 1px solid #B4B4B5;
+    width: 100%;
+    border-radius: 3rem;
+    padding: 8px;
+    padding-left: 1rem;
+    font-size: 18px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3f250e;
+}
+.userInfo-row{
+    border-top: 1px solid #B4B4B5;
+}
+.userAdress-row .artistBasic-info-values{
+    font-weight: 500;
+}
+
+.tablet-birthdate-sec{
+    border-top: 1px solid #B4B4B5;
+}
+@media only screen and (max-width: 991px) {
+    .artistInfo-large-sec{
+        display: none !important;
+    }
+    .artistInfo-tablet-sec{
+        display: block !important;
+    }
+}

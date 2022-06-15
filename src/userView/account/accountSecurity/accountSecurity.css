@@ -1,0 +1,35 @@
+.accountSecurity-sec{
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 8%;
+}
+.accountSec-heading{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.twoFac-authentication{
+    font-size: 18px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+.accountSecurity-sec{
+    padding: 12%;
+}
+.accountSecurity-sec .account_security_row{
+    text-align: center;
+}
+.accountSecurity-sec .account_content_headings{
+    font-size: 20px;
+}
+@media only screen and (max-width: 991px){
+    .twoFac-authentication{
+        font-size: 15px !important;
+    }
+}
+@media only screen and (max-width: 803px){
+    .twoFac-authentication{
+        font-size: 13px !important;
+    }
+}

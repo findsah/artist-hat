@@ -1,0 +1,543 @@
+.main_grey_con {
+    padding: 50px 76.2px 85.4px 77px;
+    object-fit: contain;
+    background-color: #f1f1f1;
+    border-radius: 2rem;
+}
+
+.userProfile-leftbar {
+    /* width: 364px; */
+    /* height: 706px; */
+    margin: 0 0.7px 0 0;
+    padding: 24.5px 21.9px 0 22px;
+    object-fit: contain;
+    border-radius: 35px;
+    background-color: #fff;
+    border-radius: 35px;
+}
+
+.sideNav {
+    position: absolute;
+    top: 94%;
+    padding: 0;
+}
+
+.left_sideBar {
+    flex: 0 0 auto;
+    width: 29.1%;
+}
+
+.profile_contentBar {
+    flex: 0 0 auto;
+    width: 70.9%;
+}
+
+.userProfile-leftbar .user-name {
+    color: #fdd043;
+    font-weight: bolder;
+    object-fit: contain;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+
+.user-shortDesc {
+    font-family: Montserrat;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8e979c;
+}
+
+.user-longDesc {
+    color: #454f63;
+    /* font-family: Raleway; */
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #454f63;
+}
+
+
+.leftBar-innerRow {
+    padding: 17px;
+    width: auto;
+    height: auto;
+    margin: 18.3px 0 0;
+    object-fit: contain;
+    background-color: #efefef;
+    border-radius: 20px;
+}
+
+.hourly-rate {
+    color: #523105;
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+.share {
+    color: #fdd043;
+    font-size: 11px;
+}
+
+.see-more {
+    color: #523105;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.profleCompletin-rate {
+    border-radius: 30px;
+    /* border: solid 1px #707070; */
+    background: #fff;
+    padding: 15px 0;
+    border: 1px solid #B4B4B5;
+    border-radius: 3rem;
+    color: #707070;
+    font-size: 8px;
+    font-weight: 500 !important;
+}
+
+.social-media {
+    width: auto;
+    padding: 0 2px;
+    color: #b2aeae;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.left_sideBar .react-stars span {
+    font-size: 13px;
+}
+
+.public-profile,
+.update-profile {
+    width: 80%;
+    border-radius: 30px;
+    /* border: solid 1px #707070; */
+    background: #fff;
+    border: 1px solid #B4B4B5;
+    /* border-radius: 3rem; */
+    color: #ffd100;
+    font-size: 8px;
+    font-weight: bolder !important;
+    padding: 12px
+}
+
+.public-profile,
+.update-profile span {
+    font-size: 15px;
+}
+
+.skills-main-sec {
+    background-color: #f1f1f1;
+    border-top-left-radius: 50px;
+
+}
+
+.rates-and-skills {
+    font-size: 26px;
+    font-weight: bolder !important;
+    text-align: center;
+    color: #523105;
+}
+
+.skills-inner-sec {
+    background-color: #fed12f;
+    ;
+    border-radius: 30px 0 30px 30px;
+    /* border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem; */
+}
+
+.skills-inner-sec .skills {
+    font-size: 26px;
+    font-weight: bolder !important;
+    text-align: start;
+    color: #523105;
+}
+
+.arrow-dropDown {
+    height: 3em;
+    width: auto;
+    color: #ffd100;
+}
+
+.skills-tabs {
+    margin: 10% 0;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.backgrond-active {
+    background-color: #fff;
+}
+
+.profile-nav-sec .your-profile {
+    padding-left: 71px;
+    padding-top: 32px;
+    font-size: 46px;
+    font-weight: bolder;
+    color: #523105;
+}
+
+.profile-nav-sec .preview {
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #ffd100;
+    ;
+}
+
+.profile-nav-sec .prfoile_preview {
+    display: flex;
+    align-items: center;
+}
+
+
+.profile-tabs {
+    padding: 68px 0;
+}
+
+.profileNav-tabs {
+    width: 100%;
+    padding: 3px 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    border: solid 1.8px #707070;
+}
+
+.navImages_wrap {
+    margin-right: 6px;
+}
+
+.profileNav-tabs-active {
+    background-color: #fdd043;
+}
+
+.profileArrow-div {
+    line-height: 1;
+    text-align: end;
+}
+
+.profileArrow-dropDown {
+    height: 1em;
+    width: auto;
+    color: #fdd043;
+}
+
+.profile-arrow-active {
+    color: #fff;
+}
+
+.rateAndSkills-img {
+    width: 35px;
+    height: auto;
+}
+
+.profileRatesTab-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.83;
+    letter-spacing: 1.8px;
+    color: #523106;
+}
+
+.userview-sec .hr-line {
+    height: 1.5px !important;
+    background-color: #523105;
+    width: 100%;
+}
+
+/* checkbox or radio */
+.radioLabel-container {
+    position: relative;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    padding-left: 20px;
+    line-height: 2.14;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px !important;
+    color: #523106;
+    letter-spacing: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 9% !important;
+}
+
+/* Hide the browser's default radio button */
+.radioLabel-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #fff;
+    border-radius: 25% !important;
+    border: 1px solid #B4B4B5;
+}
+
+/* On mouse-over, add a grey background color */
+.radioLabel-container:hover input~.checkmark {
+    background-color: #fff;
+}
+
+/* When the radio button is checked, add a blue background */
+.radioLabel-container input:checked~.checkmark {
+    background-color: #fed02f;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radioLabel-container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+.main_grey_con {
+    padding: 68px 40px 68px 23px !important;
+}
+
+
+.profile_avatar {
+    width: 109px !important;
+    height: 109px !important;
+}
+
+
+
+.user-longDesc,
+.user-shortDesc {
+    font-size: 17px;
+}
+
+.profleCompletin-rate span {
+    font-size: 14px;
+}
+
+.userProfile-leftbar {
+    padding: 23.2px 17.7px 0 18.8px !important;
+}
+
+.userProfile-leftbar .user-name {
+    font-size: 20px !important;
+    color: #3f250e !important;
+}
+
+.profile_nav {
+    width: 100% !important;
+}
+
+.mainheader {
+    max-width: 100% !important;
+    padding: 4% 7% !important;
+}
+
+
+.profile-nav-sec .your-profile {
+    padding: 0 !important;
+}
+
+.bar {
+    height: 15px !important;
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+
+
+    .profileNav-tabs {
+        padding: 5px !important;
+    }
+
+    .profile-nav-sec .your-profile {
+        font-size: 36px !important;
+
+    }
+
+    .skills-inner-sec .skills {
+        font-size: 20px !important;
+    }
+
+    .social-media {
+        font-size: 20px !important;
+    }
+
+    .public-profile,
+    .update-profile {
+        width: 90% !important;
+        padding: 9px !important;
+    }
+
+    .public-profile,
+    .update-profile span {
+        font-size: 11px !important;
+    }
+
+    .user-longDesc,
+    .user-shortDesc {
+        font-size: 12px !important;
+    }
+
+    .profleCompletin-rate {
+        padding: 9px 0 !important;
+    }
+
+    .profleCompletin-rate span {
+        font-size: 11px !important;
+    }
+
+    .radioLabel-container {
+        font-size: 14px !important;
+    }
+
+    .rates-and-skills {
+        font-size: 17px !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 991px) {
+    .profile-nav-sec .profile-tabs-con {
+        margin-top: 2%;
+    }
+
+    .profile-nav-sec .prfoile_preview {
+        display: block !important;
+    }
+
+    .left_sideBar {
+        width: 100% !important;
+    }
+
+    .profile_contentBar {
+        width: 100% !important;
+        margin-top: 2% !important;
+        padding: 0 !important;
+    }
+
+    .category_selected {
+        margin-top: 53rem !important;
+        flex: 0 0 auto;
+        width: 70.9%;
+    }
+
+    .skills-inner-sec .skills,
+    .skills-inner-sec,
+    .pickheading.pickheading,
+    .painttext,
+    .vehicles-sec .heading-4 {
+        font-size: 15px !important;
+    }
+
+    .subheadings,
+    .scondbtnm,
+    .hr2text,
+    .about-subHeadings,
+    .vehicles-sec .radioLabel-container,
+    .bio-sec .heading-4 {
+        font-size: 12px !important;
+    }
+
+    .rates-and-skills,
+    .gallery-con .heading {
+        font-size: 20px !important;
+    }
+
+    .public-profile,
+    .update-profile span {
+        font-size: 9px !important;
+    }
+
+    .userview-sec .main_grey_con {
+        padding: 68px 23px 68px 23px !important
+    }
+
+    .profile-nav-sec .your-profile {
+        font-size: 30px !important;
+
+    }
+
+    .workArea-con .heading {
+        font-size: 20px !important;
+    }
+
+    .profleCompletin-rate span,
+    .gallery-con content,
+    .user-longDesc,
+    .user-shortDesc,
+    .pickArtist-paragraph,
+    .painting-paragraphs,
+    .vehicles-sec .vehicles-paragraph,
+    .gallery-con .content {
+        font-size: 10px !important;
+    }
+
+    .leftBar-innerRow,
+    .userProfile-leftbar .user-name,
+    .user-shortDesc {
+        text-align: center !important;
+    }
+
+    .react_stars {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .rates_and_skills,
+    .rates_and_skills .painttext {
+        text-align: center !important;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-tabs {
+        padding: 1% 0 !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 415px) {
+    .category_selected {
+        margin-top: 36rem !important;
+    }
+
+
+
+}

@@ -1,0 +1,256 @@
+.artist-img {
+    left: 2rem;
+    z-index: 1;
+    top: 2rem;
+}
+
+.confirmDetails-Sec .artistIntro {
+    height: auto;
+    width: 100%;
+    padding: 2% 0 2% 15%;
+    background-color: #f4f4f5;
+    border-radius: 66px;
+}
+
+.confirmDetails-Sec .rate-section::after {
+    content: "";
+    width: 200px;
+    height: 1px;
+    background: #B4B4B5;
+    display: block;
+    margin: 10% 0 0 0;
+}
+
+.confirmDetails-Sec .artist-img {
+    left: 0;
+    width: 346px;
+    height: auto;
+}
+
+.confirmDetails-Sec .about-artist {
+    margin-top: 2.5%;
+    position: relative;
+    justify-content: end;
+}
+
+.confirmDetails-Sec .help {
+    left: 1%;
+    bottom: 0;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe h4 {
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    color: #523106;
+}
+
+.aboutMe hr {
+    margin: 15% 0;
+}
+
+.aboutMe p {
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #454f63;
+}
+
+.aboutMe .readMore h6 {
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #51310b;
+}
+
+.artistSkills {
+    border: none;
+}
+
+.taskDetails-sec {
+    padding: 1rem 5rem;
+    background-color: #f4f4f5;
+    border-radius: 2rem;
+}
+
+.taskDetails-headings {
+    font-size: 20px !important;
+}
+
+.card-details-sec {
+    border-top: 1px solid #B4B4B5;
+    border-bottom: 1px solid #B4B4B5;
+}
+
+.card-input-group {
+    padding: 12px 4px 12px 4px !important;
+    background-color: #fff !important;
+    border: 1px solid #B4B4B5 !important;
+    border-radius: 2rem !important;
+}
+
+.card-details-sec .card-inputs,
+.card-details-sec .card-inputs::-webkit-input-placeholder {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.card-inputs {
+    border-radius: 2rem !important;
+    border: none;
+    text-align: center;
+}
+
+.card-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #B4B4B5;
+}
+
+.phone-number {
+    padding: 12px 4px 12px 54px !important;
+    background-color: #fff !important;
+    border: 1px solid #B4B4B5 !important;
+    border-radius: 2rem !important;
+    margin-bottom: 5%;
+}
+
+.mobile-phone {
+    margin-top: 5%;
+}
+
+.mobile {
+    opacity: 1;
+    font-size: 30px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    color: #523105;
+}
+
+.donation-sec {
+    border-top: 1px solid #B4B4B5;
+}
+
+.donationMain-sec {
+    border-bottom: 1px solid #B4B4B5;
+}
+
+.donationMain-sec .pd-paragraphs {
+    font-size: 19px;
+}
+
+.title-img {
+    width: 129px;
+}
+
+.radioLabel-container {
+    position: relative;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    padding-left: 20px;
+    line-height: 2.14;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px !important;
+    color: #523106;
+    letter-spacing: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 8% !important;
+}
+
+
+/* Hide the browser's default radio button */
+
+.radioLabel-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #fff;
+    border-radius: 25% !important;
+    border: 1px solid #B4B4B5;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.radioLabel-container:hover input~.checkmark {
+    background-color: #fff;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.radioLabel-container input:checked~.checkmark {
+    background-color: #fed02f;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.radioLabel-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.security-img {
+    display: flex;
+    align-items: center;
+    width: 81px;
+    height: 89px;
+}
+
+.community-protection {
+    color: #454f63;
+    font-size: 18px;
+}
+
+.chat-tagline {
+    font-size: 10px;
+    font-weight: 400;
+    color: #B4B4B5;
+    background-color: #fff;
+    padding: 3% 10% 10% 2%;
+    border-radius: 2rem;
+}

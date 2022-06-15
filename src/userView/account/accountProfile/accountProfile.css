@@ -1,0 +1,289 @@
+.accountProfile-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 8%;
+}
+
+
+
+.user-img {
+    width: 160px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.accountProfile-icon {
+    fill: #3f250e;
+
+}
+.accountProfile-sec .account_details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.accountProfile-sec .account_details_sec {
+    grid-gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accountProfile-sec .account_details .profile_item {
+    width: 80%;
+}
+.accountProfile-sec .account_details .profile_icon {
+    width: 5%;
+}
+.accountProfile-sec .details_card{
+    justify-content: center;
+    grid-gap: 30px 0;
+}
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+  
+  .account-heading {
+    font-size: 35px !important;
+}
+
+  /* .h1_heading .col-3{
+    padding-left: 0 !important;
+  } */
+}
+
+@media only screen and (max-width : 991px) {
+    .user-name {
+        font-size: 16px !important;
+    }
+}
+
+/* span{
+    line-height: 10rem;
+}
+.container{
+    
+    border-radius: 30px;
+    background-color: var(--white)
+}
+.logout-btn{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    float: center;
+    width: 20%;
+    height: 40px;
+    object-fit: contain;
+    padding: 1px;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+background-color: white;
+opacity: 1;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+.name{
+    object-fit: contain;
+  font-family: Montserrat;
+  font-size: 33px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--mud-brown);
+}
+.email{
+    object-fit: contain;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--mud-brown);
+}
+.phone{
+    object-fit: contain;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--mud-brown);
+  
+}
+.address{
+    object-fit: contain;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--mud-brown);
+}
+
+.user-info{
+    line-height: 3rem;
+}
+.fas{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    font-size: 1.5rem;
+  
+}
+@media screen and (min-width:375px)and (max-width:991px){
+    .user-info{
+        line-height: 3rem;
+        margin-top: 40px;
+        text-align: center;
+        justify-content: center;
+    }
+   
+
+}
+@media screen and (min-width:308px)and (max-width:374px){
+    .user-info{
+        line-height: 3rem;
+        margin-top: 40px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .name{
+        object-fit: contain;
+      font-family: Montserrat;
+      font-size: 28px;
+      font-weight: 450;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: var(--mud-brown);
+    }
+    .email{
+        object-fit: contain;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 250;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: var(--mud-brown);
+    }
+    .phone{
+        object-fit: contain;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 250;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--mud-brown);
+      
+    }
+    .address{
+        object-fit: contain;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 250;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: var(--mud-brown);
+    }
+    .fas{
+        width: 33px;
+        height: 33px;
+        object-fit: contain;
+        font-size: 1.5rem;
+      
+    }
+
+}
+@media screen and (min-width:200px)and (max-width:307px){
+    .user-info{
+        line-height: 3rem;
+        margin-top: 40px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .name{
+        object-fit: contain;
+      font-family: Montserrat;
+      font-size: 23px;
+      font-weight: 400;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: var(--mud-brown);
+    }
+    .email{
+        object-fit: contain;
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: 200;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: var(--mud-brown);
+    }
+    .phone{
+        object-fit: contain;
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 200;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--mud-brown);
+      
+    }
+    .address{
+        object-fit: contain;
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: 200;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: var(--mud-brown);
+    }
+    .fas{
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+        font-size: 1.5rem;
+      
+    }
+
+} */

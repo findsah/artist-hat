@@ -1,0 +1,43 @@
+.accountNotificaions-heading {
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.accountNotificaions-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 8%;
+}
+.table-borderless>:not(caption)>*>*{
+    text-align: center !important;
+}
+.table>:not(caption)>*>*{
+    padding: 1rem 0.5rem !important;
+}
+.communication-form{
+    color: #707070 ;
+    font-size: 22px;
+    font-weight: 500;
+}
+.accountNotificaions-head{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3f250e !important;
+}
+
+.communicaitons-first-row{
+    border-bottom: 1px solid #b3b3b3;;
+}
+.accountNotificaions-sec .buttons{
+    grid-gap: 15px 0;
+}
+@media only screen and (max-width: 1919px) {
+.communication-tablet-sec{
+    display: block !important;
+}
+.communication-large-sec{
+    display: none !important;
+}
+}

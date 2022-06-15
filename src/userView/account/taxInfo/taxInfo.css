@@ -1,0 +1,39 @@
+.taxInfo-heading {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.taxInfo-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.taxInfo-description-div {
+    border-left: 1px solid #b3b3b3;
+}
+
+.taxInfo-description {
+    color: #707070;
+    font-size: 15px;
+}
+
+.updateInfo-div {
+    margin-left: 5rem;
+    padding-top: 7rem;
+}
+
+.h2-headings {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+@media only screen and (max-width:991px) {
+    .taxInfo-first-row {
+        justify-content: center !important;
+    }
+    .updateInfo-div {
+        margin-left: 0 !important;
+    }
+}

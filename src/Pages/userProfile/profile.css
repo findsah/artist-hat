@@ -1,0 +1,141 @@
+.createprofileName {
+    display: flex;
+    justify-content: space-between;
+}
+.createprofileH1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    color: #818181;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.image-container {
+    width: 50%;
+    overflow: hidden;
+}
+.sideartImg {
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+.inputdiv {
+    margin: 2rem 0;
+}
+.inputdivlabel {
+    font-size: 16px;
+    color: #523106;
+    margin-left: 3rem;
+    text-transform: uppercase;
+    float: left;
+}
+.inputfield {
+    padding: 1rem 1rem 1rem 4rem;
+    width: 100%;
+    border-radius: 5rem;
+    border: 0.5px solid #9599b1;
+    margin-top: 1rem;
+    outline: none;
+    background-color: white;
+    font-size: 16px;
+    height: 4rem;
+    color: #523106;
+}
+.inputdiv .country{
+    padding: 1rem 1rem 1rem 4rem !important;
+}
+::placeholder {
+    color: lightgray;
+}
+select {
+    color: lightgray;
+}
+.profilelabel {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #969696;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.profileimg {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+#file-input {
+    display: none;
+}
+.twoFieldsInaRow {
+    display: flex;
+    justify-content: space-between;
+}
+.dropDowninputfield {
+    width: 525px !important;
+    /* font-size: 1.5rem !important; */
+    background-color: white;
+}
+.profiletextarea {
+    width: 100%;
+    height: 500px;
+    border: solid 1px #9d9c9c;
+    margin-top: 33px;
+    border-radius: 3rem;
+    outline: none;
+    padding: 1rem 1rem 1rem 4rem;
+    color: #818181;
+}
+.createaccount {
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    background: #fed12f;
+    display: block;
+    margin: 52px auto;
+    cursor: pointer;
+    /* padding: 0.5rem 8rem; */
+    text-transform: uppercase;
+    height: 4rem;
+    width: 50%;
+}
+@media (max-width: 992px) {
+    .createaccount {
+        width: 100%;
+        font-size: 16px !important;
+        padding: 0.5rem 6rem;
+    }
+}
+@media (max-width: 992px) {
+    .twoFieldsInaRow {
+        display: block !important;
+    }
+    .dropDowninputfield {
+        width: 100% !important;
+    }
+}
+@media (max-width: 680px) {
+    .createprofileH1 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+/* drop_down-country  */
+
+.ReactFlagsSelect-module_selectBtn__19wW7{
+    border: none !important;
+    height: 100%;
+}
+.ReactFlagsSelect-module_flagsSelect__2pfa2{
+    padding-bottom: 0 !important;
+}

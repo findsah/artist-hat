@@ -1,0 +1,79 @@
+.blogs {
+    background: linear-gradient(to bottom, #fef9ed 0%, #fff 100%) !important;
+}
+.blogsH1 {
+    text-transform: uppercase;
+    color: #523106;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.blogsH2 {
+    color: #523106;
+    font-size: 30px;
+    font-weight: bold;
+}
+.blogNavMain {
+    padding: 1.5rem 0;
+    background: white !important;
+    border-radius: 0 0 2rem 2rem;
+}
+.blogNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blogNavImg {
+    width: 157.9px;
+    height: 40.9px;
+}
+.blogArtist {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.blog1 {
+    width: 95% !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+.blogSocial {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5% 15% 3% 0;
+}
+.blogsTextArea {
+    padding: 16px 32px !important;
+    width: 100%;
+    border-radius: 50px;
+    height: 11rem;
+    outline: none;
+    border: 0.5px solid #9599b1;
+}
+.blogsInput {
+    width: 100%;
+    border-radius: 50px;
+    height: 3.5rem;
+    outline: none;
+    border: 1px solid;
+    padding: 0 2rem;
+    border: 0.5px solid #9599b1;
+}
+.blogsButton {
+    width: 50%;
+    border: none;
+    margin: 2rem auto;
+    display: block;
+    background: #fed12f;
+    padding: 10px;
+    border-radius: 50px;
+    height: 3.5rem;
+    text-transform: uppercase;
+}
+
+.formLabel {
+    padding-left: 4rem;
+    font-size: 14px;
+    margin: 10px 0;
+    color: #523106;
+}

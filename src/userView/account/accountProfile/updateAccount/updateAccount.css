@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user-img1 {
+    width: 269px;
+    height: 269px;
+    object-fit: contain;
+}
+
+.basic-inputs {
+    padding: 24px;
+    padding-left: 2rem;
+    width: 100%;
+    border-radius: 50px;
+    border: solid 2px #9d9c9c;
+    background-color: var(--white);
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a8a5a5;
+}
+
+
+.email-place {
+    padding-left: 2rem;
+    padding: 24px;
+    width: 100%;
+    border-radius: 50px;
+    border: solid 2px #9d9c9c;
+    background-color: var(--white);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a8a5a5;
+}
+
+.enter-email {
+    align-items: center;
+}
+
+
+
+.Account-use {
+    margin-top: 80px;
+}
+
+.save-info-btn {
+    margin-top: 50px;
+}
+
+.Account-labels {
+    margin-left: 6.1%;
+    font-size: 18px;
+    text-align: left;
+    color: #818181;
+}
+.Account-use .Account-labels{
+    margin: 0;
+}
+
+.checked-labels {
+    font-size: 18px;
+    text-align: left;
+    color: #818181;
+}
+
+.unchecked-labels {
+    font-size: 18px;
+    text-align: left;
+    color: #818181;
+    opacity: 0.5;
+}
+
+
+.checkbox-heading {
+    width: 326px;
+    height: 25px;
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #818181;
+}
+
+.business-tasks {
+    align-items: start;
+}
+
+.personal-checkbox {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a8a5a5;
+}
+
+.account-checkbox {
+
+    border: solid 1px #707070;
+    background-color: var(--sun-yellow);
+}
+
+.account-checks {
+
+    border: solid 1px #707070;
+    background-color: var(--sun-yellow);
+}
+
+.enter-email-header {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #818181;
+}
+
+
+.update-account {
+    margin-top: 50px;
+
+}
+
+.for-updating-account {
+    border-radius: 30px;
+    background-color: var(--white);
+
+}
+
+.upload-new-photo {
+    font-size: 18px;
+    font-weight: 500;
+    color: #3f250e;
+}
+.Account-use .radioLabel-container {
+    padding-left: 4% !important;
+}
+@media screen and (min-width:200px) and (max-width: 991px) {
+    .for-img {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .enter-user-info {
+        margin-top: 50px;
+    }
+}

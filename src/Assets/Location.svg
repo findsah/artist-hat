@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="30" viewBox="0 0 26 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="26" height="30" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icons_dark_marker" data-name="icons/dark/marker" clip-path="url(#clip-path)">
+    <rect id="bg" width="26" height="30" fill="#fff" opacity="0"/>
+    <path id="Path_142" data-name="Path 142" d="M20,10.818C20,18.455,11.5,25,11.5,25S3,18.455,3,10.818C3,5.4,6.806,1,11.5,1S20,5.4,20,10.818Z" transform="translate(2 2)" fill="none" stroke="#757575" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <circle id="Ellipse_34" data-name="Ellipse 34" cx="2.589" cy="2.589" r="2.589" transform="translate(10.964 10.297)" fill="none" stroke="#757575" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

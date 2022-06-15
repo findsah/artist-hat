@@ -1,0 +1,92 @@
+.hr-line {
+    z-index: 1;
+    width: 75%;
+    height: 1.5px !important;
+    background-color: #707070;
+    left: 13%;
+    top: 0.2%;
+}
+
+.steps-row {
+    position: relative;
+    z-index: 2;
+}
+
+.steps {
+    width: 68px;
+    font-size: 32px !important;
+    background-color: #fff !important;
+    color: #B4B4B5 !important;
+    border: 1.5px solid #B4B4B5 !important;
+    height: 66px;
+    background-color: #fff !important;
+    color: #B4B4B5 !important;
+    border: 1.5px solid #B4B4B5 !important;
+}
+
+.step1,
+.step1-active {
+    padding: 1px 10px !important;
+}
+
+.step2,
+.step2-active {
+    padding: 1px 8px !important;
+}
+
+.step3,
+.step3-active {
+    padding: 1px 7.5px !important;
+}
+
+.step4,
+.step4-active {
+    padding: 1px 7px !important;
+}
+
+.steps-ative {
+    width: 68.9px;
+    height: 67.8px;
+    font-size: 32px !important;
+    border: 1.5px solid #B4B4B5 !important;
+    color: #523105 !important;
+    background: #fed12f !important;
+}
+
+.step-heading {
+    text-transform: capitalize;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.6;
+    letter-spacing: 0.08px;
+    color: #9599b2;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.steps,
+.steps-ative {
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+    .steps,
+    .steps-ative {
+        width: 44.9px !important;
+        height: 43.8px !important;
+        font-size: 23px !important;
+    }
+    .step-heading {
+        font-size: 13px !important;
+    }
+}

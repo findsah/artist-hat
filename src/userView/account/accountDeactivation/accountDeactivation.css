@@ -1,0 +1,23 @@
+.deactivation-heading {
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.deactivation-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+}
+.deactivation-description-div{
+    border-left: 1px solid #b3b3b3;
+}
+.deactivation-description{
+    color: #707070;
+    font-size: 15px;
+}
+@media only screen and (max-width : 991px) {
+    .account-deactivation {
+        text-align: center;
+    }
+}

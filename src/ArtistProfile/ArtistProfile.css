@@ -1,0 +1,217 @@
+.aboutArtistSec {
+    padding: 5% 0 700px;
+}
+
+.aboutArtistSec .aboutArtisInnerCont {
+    margin: 0 3.9%;
+    position: relative;
+    border-radius: 77px;
+    background-color: #f4f4f5;
+    border-radius: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.aboutParagraph {
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    color: #454f63;
+}
+
+.aboutHeading {
+    color: #3f250e;
+    font-size: 34px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+}
+
+.aboutMeSection {
+    margin-top: -5%;
+    display: flex;
+    width: 82%;
+    align-items: center;
+}
+
+.aboutMeSection .col-9 {
+    padding: 0 3% !important;
+}
+
+.reviewGalleryButtons {
+    padding: 3% 0;
+}
+
+.artistGallerySec {
+    padding: 4%;
+    background: #fff;
+    border-radius: 73px;
+}
+
+.artistGallerySec .form-group {
+    margin: 5% 0;
+}
+
+.artistGallerySec .submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.artistGallerySec .artistFormGroup {
+    padding: 0;
+}
+
+.artistGallery,
+.artistReviews {
+    padding: .3rem 5rem;
+    background: #fff;
+    border: 2px solid #B4B4B5;
+    border-radius: 3rem;
+}
+
+.artistGallery {
+    background: #fed12f !important;
+}
+
+.formSignIn {
+    color: #BDC1C8;
+    padding: .3rem 2.5rem;
+    background: #fff;
+    border: 2px solid #D3D3D3;
+    border-radius: 3rem;
+}
+
+.artistReviewsText,
+.artistGalleryText {
+    color: #523105;
+    font-weight: bold !important;
+}
+
+.artisGalleryUpload {
+    border: 2px solid #D3D3D3 !important;
+    border-radius: 1.5rem;
+    text-align: center;
+    padding: 9% 0;
+}
+
+form label {
+    font-size: 20px;
+    color: #B5B9C1 !important;
+}
+
+.form-control {
+    font-size: 0.8rem !important;
+    color: #BDC1C8 !important;
+    border: none !important;
+    border-bottom: 2px solid #D3D3D3 !important;
+    border-radius: 0 !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.formSignInText {
+    color: #D3D3D3;
+    font-weight: bold !important;
+}
+
+.artisGalleryIcon {
+    color: #D3D3D3 !important;
+    height: 3rem;
+    width: 3rem;
+}
+
+.featured-image {
+    border-radius: 20px;
+}
+
+.imageCut {
+    width: 5%;
+    height: auto;
+    transform: rotate(45deg);
+    color: #fff;
+    background: #ffd100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+}
+
+.michleCardSec {
+    top: 89.8%;
+}
+
+.michelCard {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-right: 0 !important;
+    width: 93% !important;
+    background: #fff;
+    justify-content: center;
+    border: 1px solid #D3D3D3 !important;
+    border-radius: 20px;
+}
+
+.michelCardHeading1 {
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #454f63;
+}
+
+.michelCardHeading2 {
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #454f63;
+}
+
+.michelCardParagraph {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    color: #78849e;
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+    .aboutArtistSec .aboutArtisInnerCont {
+        background-color: transparent !important;
+    }
+    .aboutMeSection .col-9 {
+        padding: 0 5%;
+    }
+    .reviewsCard {
+        width: 100% !important;
+    }
+    .reviews-sec {
+        background-color: #f4f4f5 !important;
+    }
+    .reviews-row {
+        background-color: #fff !important;
+    }
+    /* tasker-and-prices */
+    .aboutArtisInnerCont .artistAboutSection {
+        background-color: transparent !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .galleryCol {
+        margin-top: 18% !important;
+    }
+    .see-More {
+        margin-top: 15% !important;
+    }
+}

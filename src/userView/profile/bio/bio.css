@@ -1,0 +1,51 @@
+.bio-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 5% 8%;
+}
+
+.heading-4 {
+    font-size: 18px;
+    font-weight: bolder !important;
+    color: #523105;
+}
+
+.about-paragraph {
+    color: #8e979c;
+    font-size: 10px;
+}
+
+.about-subHeadings {
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #523105;
+}
+
+.text-area {
+    /* height: 200px; */
+    background: #ECEBEB;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.text-area textarea {
+    resize: none;
+    border: none;
+    background: transparent;
+}
+textarea::placeholder {
+    font-size: 11px;
+  }
+ .personal-url{
+        width: 100%;
+        padding: 7px 22px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 2rem;
+        outline: none;
+      
+ } 

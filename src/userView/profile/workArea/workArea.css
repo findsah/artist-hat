@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.workArea-con {
+  background-color: #fff;
+  border-radius: 2rem;
+  padding: 5% 8%;
+}
+
+.mapcontainer {
+  object-fit: contain;
+  justify-content: center;
+  text-align: center;
+}
+
+.submitbtn {
+  justify-content: center;
+  text-align: center;
+  float: center;
+  width: 40%;
+  height: 40px;
+  object-fit: contain;
+  padding: 1px;
+  font-size: 13px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+.workArea-con .heading {
+  font-family: Montserrat;
+  font-size: 29px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--mud-brown);
+}
+
+.contentt {
+  object-fit: contain;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+  margin-bottom: 45px;
+}
+.contentt{
+  font-size: 14px;
+}
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+  .contentt{
+      font-size: 11px !important;
+  }
+}

@@ -1,0 +1,47 @@
+.cancelTask-heading {
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.cancelTask-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+}
+.cancelTask-description-div{
+    border-left: 1px solid #b3b3b3;
+}
+.cancelTask-description{
+    color: #707070;
+    font-size: 15px;
+}
+.goToTasks-div{
+   margin: 10% 0;
+}
+.h2-headings{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+@media only screen and (max-width: 991px) {
+    .cancelTask-first-row{
+        justify-content: center !important;
+    }
+    .goToTasks-div{
+        margin-left: 0 !important;
+    }
+    .cancelTask-second-row{
+        justify-content: center !important;
+    }
+    .bankDetails-headings{
+        font-size: 15px !important;
+    }
+    
+}
+@media only screen and (max-width: 991px) {
+    .bankDetails-headings{
+        font-size: 13px !important;
+    }
+    
+}

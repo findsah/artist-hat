@@ -1,0 +1,90 @@
+.artistInfo-heading {
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.artistInfo-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 8%;
+}
+.artistBasic-info{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3f250e;
+    text-align: center;
+}
+.artistInfo-values-div{
+border-left: 1px solid #B4B4B5;
+}
+.artistBasic-info-values{
+    color: #707070 ;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+.artistInfo-sec .artist_info{
+    grid-gap: 20px;
+    text-align: center;
+}
+/* .artistInfo-heading {
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.artistInfo-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.artistCred-mainDiv {
+    border-right: 1px solid #b3b3b3;
+}
+
+.artistInfo-credentials {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.birthdate-div {
+    padding: 0 3rem;
+    text-align: center;
+    height: 150px;
+}
+
+.address-div {
+    padding: 0 3rem;
+    text-align: center;
+    height: 300px;
+}
+
+.personalInfo-div {
+    padding: 0 3rem;
+    text-align: center;
+    height: 100px;
+}
+
+.artistBirthday-dropdowns {
+    width: 100%;
+    border-radius: 3rem;
+    padding: 8px 0 8px 20px;
+    font-size: 15px;
+    color: #3f250e;
+    font-weight: bolder;
+    border: 2px solid #b3b3b3;
+}
+.addressCred-div{
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+}
+.home-address-heading{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #b3b3b3;
+} */

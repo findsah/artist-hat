@@ -1,0 +1,28 @@
+.footersection {
+    padding: 3rem 0;
+    background: #9599b2;
+    margin-top: 8rem;
+}
+.footer {
+    margin-top: 5rem;
+}
+.footerdownloadbtns {
+    display: flex;
+    align-items: center;
+}
+.footerelementstitle {
+    font-weight: bold;
+    color: #523106;
+}
+.footerelementsp {
+    word-spacing: 4px;
+    margin: 8px 0;
+    color: whitesmoke;
+    font-size: 12px;
+}
+@media (max-width: 575px) {
+    .colum8 {
+        margin: auto;
+        text-align: center;
+    }
+}

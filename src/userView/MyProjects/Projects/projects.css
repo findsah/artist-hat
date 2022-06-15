@@ -1,0 +1,486 @@
+.user-projects {
+    padding: 50px 76.2px 85.4px 77px;
+    object-fit: contain;
+    background-color: #f1f1f1;
+    border-radius: 2rem;
+}
+
+.my-projects-heading {
+    margin-bottom: 28px;
+}
+
+.content-section {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 62px 100px;
+    max-height: 1800px;
+    overflow-y: scroll;
+}
+
+.content-section .card-row {
+    grid-gap: 30px 0;
+}
+
+.content-section .project-card {
+    border-radius: 30px;
+    border: solid 1px #523106;
+    padding: 0 29px 34px;
+    position: relative;
+    z-index: 0;
+}
+
+.project-card .confirmed-by {
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.63;
+    letter-spacing: normal;
+    text-align: center;
+    color: #52912e;
+    padding: 53px 0;
+}
+
+.status-img {
+    position: absolute;
+    top: 32%;
+    right: 5%;
+    right: 19%;
+    width: 60%;
+    transform: rotate(-32deg);
+    z-index: 1;
+}
+
+.inner-content .intro-sec {
+    display: flex;
+}
+
+.intro-sec .intro {
+    margin-left: 20px;
+}
+
+.intro-sec img {
+    width: 49px;
+}
+
+.intro-sec .intro .name {
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: normal;
+    color: #523105;
+}
+
+
+
+.otherDetails {
+    grid-gap: 10px;
+    display: flex;
+    margin: 9px 0;
+    align-items: center;
+}
+
+.otherDetails .icon {
+    margin-top: auto;
+}
+
+.otherDetails .icon img {
+    width: 15px;
+}
+
+.otherDetails .time-and-date {
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    color: #523105;
+}
+
+.otherDetails .location {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px 0;
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.79;
+    letter-spacing: normal;
+    color: #523105;
+}
+
+.location span {
+    font-size: 14px !important;
+    font-weight: normal;
+}
+
+.otherDetails .project-type {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    color: #9599b3;
+}
+
+.otherDetails .details .small-headings {
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #523105;
+}
+
+.otherDetails .details .detail-data {
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #523105;
+}
+
+.confirmTask input{
+    width: 250px;
+    border: none;
+    text-align: right;
+
+}
+
+.confirmTask input::placeholder {
+    color: #dddddd !important;
+    font-size: 33px;
+}
+
+.rate-bar-section {
+    grid-gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rate-bar {
+    width: 88.9%;
+    height: 38.5px;
+    border-radius: 19.3px;
+    background-color: #fed12f;
+    position: relative;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.rate-bar span {
+    color: #fff;
+}
+
+.rate-bar .rate {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    border-radius: 19.3px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #523105;
+    border-left: 5px solid #fff;
+    color: #fff;
+}
+
+.rate-bar-section .call,
+.rate-bar-section .message {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    background-color: #fed12f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate-bar-section .message {
+    background-color: #523105;
+
+}
+
+.buttons-bar {
+    margin-top: 2.6%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-button {
+    height: 53.5px;
+    border-radius: 26.8px;
+    border: solid 1px #707070;
+    background-color: #FFF;
+    color: #523105;
+    padding: 10x 0;
+    font-size: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.btn-brown {
+    color: #fff;
+    background-color: #523105;
+}
+
+.btn-yellow {
+    width: 100%;
+    background-color: #fed100;
+}
+
+
+/* confirmation-modal */
+.projectsCofirmation .mapArea {
+    height: 196px;
+    background-color: red;
+    margin: 29px 0;
+    border-radius: 35px;
+}
+
+.projectsCofirmation .mapArea #map{
+    height: 100% !important;
+}
+.projectsCofirmation .modal-body {
+    padding: 10px 140px 0 60px;
+
+}
+
+.modal-dialog {
+    max-width: 65%;
+    margin: 1.75rem 9% 1.75rem auto;
+
+}
+
+.projectsCofirmation .confirmations {
+    border-top: 1px solid #dddddd;
+}
+
+.projectsCofirmation .confirmations .radioLabel-container {
+    padding-left: 25px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #241332;
+}
+
+/* .projectsCofirmation .modal-content{
+    border-radius: 100px !important;
+  border: solid 1px #523106 !important;
+    padding-bottom: 0;
+} */
+.confirmTask-sec {
+    justify-content: space-between;
+    border-radius: 60px;
+    background-color: #f1f1f1;
+    padding: 85.5px 30.7px 30.7px 55.5px;
+}
+
+.confirm-taskBar {
+    padding: 0 5% 100% 0 !important;
+}
+
+.confirm-taskBar .h2-heading {
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 35px;
+    color: #3f250e;
+}
+
+.confirm-taskBar .closing-message {
+    font-size: 27px;
+    margin-top: 47.6%;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #523106;
+}
+
+.confirm-taskBar .message {
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #523106;
+    margin-top: 3.5%;
+    text-align: left;
+}
+
+.confirm-taskBar .paragraph-2 {
+    margin-top: 3.5%;
+}
+
+.confirmTask-sec .account_content {
+    padding: 23.4px;
+    padding-left: 0 !important;
+
+}
+
+.projects-content {
+    padding-left: 0 !important;
+}
+
+.confirm-rightBar .content {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 1.5% 8.5%;
+    font-size: 33px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.61;
+    letter-spacing: normal;
+}
+
+.confirm-rightBar .content .data-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dddddd;
+    color: #523105;
+    padding: 5% 0;
+    font-size: 33px;
+}
+
+.confirm-rightBar .content .data-row .faded-heading {
+    opacity: 0.4;
+}
+
+.data-row .sub-total {
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.92;
+    letter-spacing: normal;
+    color: #523105;
+}
+
+.confirm-rightBar .content .preview-button {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: solid 1px #707070;
+    background-color: #fff;
+    margin: auto;
+    color: #523105;
+    font-weight: bolder;
+    font-size: 33px;
+    padding: 15px 10px;
+
+}
+
+/* .custom-switch-toggle */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 34px;
+    width: 34px;
+    left: 32px;
+    background-color: #523106;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #fed12f;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #fed12f;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(-26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(-32px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+    .status-img {
+        top: 38% !important;
+        right: 88% !important;
+        width: 68% !important;
+        left: 21% !important;
+    }
+
+    input::placeholder {
+        font-size: 21px !important;
+    }
+
+    .projects-button {
+        height: 38px !important;
+        font-size: 12px !important;
+    }
+
+    .confirm-rightBar .content .data-row {
+        font-size: 21px !important;
+    }
+
+    .confirm-rightBar .content .preview-button {
+        border-radius: 15px !important;
+        font-size: 21px !important;
+        padding: 2px 10px !important;
+
+    }
+}

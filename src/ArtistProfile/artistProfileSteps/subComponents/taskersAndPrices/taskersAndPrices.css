@@ -1,0 +1,353 @@
+.taskersAndPrices {
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+.taskersAndPrices .artist_filters {
+    max-width: 32% !important;
+    height: 1385px;
+}
+
+.taskersAndPrices .filter_bar {
+    border-radius: 51px;
+    border: solid 1px #707070;
+    padding: 65px 25px;
+}
+
+.artist_filters .main_headings {
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f250e;
+    margin-bottom: 15%;
+}
+
+.artist_filters .artist_type {
+    margin-top: 10%;
+}
+
+.artist_filters .buttons {
+    grid-gap: 20px;
+}
+
+.artist_filters .buttons .button {
+    max-width: 45%;
+    height: 40px;
+    border-radius: 51px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    color: #523105;
+}
+
+.artist_filters .buttons .button_active {
+    background-color: #fed12f !important;
+}
+
+.artist_filters hr {
+    border: 1px solid #707070;
+    margin: 15% 0;
+}
+
+.artist_filters .flexibility {
+    width: 90%;
+    height: 40px;
+    border-radius: 51px;
+    border: solid 1px #707070;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
+    font-weight: bolder;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3f250e;
+    padding-left: 10px;
+}
+
+.artist_filters .heading_small {
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3f250e;
+    margin-bottom: 15%;
+}
+
+.artist_filters .choose_time {
+    display: flex;
+    justify-content: center;
+}
+
+.artist_filters .artist_type {
+    display: flex;
+    flex-direction: column;
+}
+
+.taskersAndPrices .artists .artistProfile {
+    align-items: center;
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: solid 1px #707070;
+    margin-bottom: 2%;
+}
+
+.taskersAndPrices .artists .artistProfileGrey {
+    background-color: #f4f4f5 !important;
+    border: none;
+}
+
+.taskersAndPrices .artists .review_side {
+    max-width: 70% !important;
+}
+
+.skill_des {
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #454f63;
+}
+
+.taskersAndPrices .artists .review_side .reviews {
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.taskersAndPrices .artists .review_side .reviewee {
+    align-items: center;
+    grid-gap: 0 5%;
+    display: flex;
+    width: 90%;
+}
+
+.taskersAndPrices .artists .review_side .reviewee .review_and_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.taskersAndPrices .artists .review_side .reviewee .review_and_name .review {
+    color: #454f63;
+}
+
+.taskersAndPrices .artists .review_side .reviewee .review_and_name .name_and_date {
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #454f63;
+}
+
+.taskersAndPrices .artists .review_side .reviewee .image {
+    width: 108px;
+    height: auto;
+}
+
+.taskersAndPrices .artists .review_side .read_more {
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 15px;
+    text-align: right;
+    color: #51310b;
+}
+
+.taskersAndPrices .artists .review_side .ratings_and_price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskersAndPrices .artists .review_side .ratings_and_price .ratings .artist_name {
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fed12f;
+}
+
+.taskersAndPrices .artists .review_side .ratings_and_price .ratings .review_percentage {
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f250e;
+    margin-top: 5%;
+}
+
+.taskersAndPrices .artists .review_side .ratings_and_price .price_sec .price {
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f250e;
+}
+
+.taskersAndPrices .artists .review_side .ratings_and_price .price_sec .great_value {
+    width: 100%;
+    border-radius: 30px;
+    background-color: #fdd035;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.taskersAndPrices .artists .profile_side .profile_img {
+    height: 200px;
+}
+
+.taskersAndPrices .artists .profile_side .profile_description {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #523106;
+}
+
+.taskersAndPrices .artists .profile_side .viewProfile_reviews {
+    text-align: center;
+    margin-top: 30%;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: normal;
+    color: #9599b2;
+}
+
+.taskersAndPrices .artists .profile_side .select_and_continue {
+    margin-top: 5%;
+}
+
+.taskers-Sec {
+    /* width: 1920px;
+    height: 850px; */
+    padding: 7rem 0;
+}
+
+.aboutArtisInnerCont .artistAboutSection {
+    margin: 0 3.9%;
+    position: relative;
+    border-radius: 77px;
+    background-color: #f4f4f5;
+    border-radius: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.artistGallerySec {
+    padding: 4%;
+}
+
+.taskersGallery-row {
+    padding: 0;
+}
+
+.taskersGalleryCol {
+    margin-bottom: 6rem;
+}
+
+.reviews-sec {
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 1.5rem;
+}
+
+.reviews-row {
+    height: 1000px;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    overflow: auto;
+}
+
+.reviews-row .reviewsCard {
+    margin-bottom: 2%;
+    height: 150px;
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.reviewee-img {
+    border-radius: 15%;
+    width: 90px;
+    height: 90px;
+}
+
+.reviewer-name {
+    color: #fed12f;
+    font-weight: bolder;
+}
+
+.review-date,
+.review-content {
+    color: #817889;
+}
+@media only screen and (max-width: 1366px) and (min-width: 1080px) {
+    .taskersAndPrices .artists .profile_side .viewProfile_reviews {
+        margin-top: 15% !important;
+    }
+}
+@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+    .taskersAndPrices .artists .profile_side .viewProfile_reviews {
+        font-size: 14px !important;
+    }
+
+    .taskersAndPrices .artists .profile_side .profile_description {
+        font-size: 14px !important;
+        ;
+    }
+
+    .taskersAndPrices .artists .review_side .ratings_and_price .ratings .review_percentage {
+        font-size: 18px !important;
+    }
+
+    .taskersAndPrices .artists .review_side .skill_des {
+        font-size: 15px !important;
+    }
+
+    .taskersAndPrices .artists .review_side .ratings_and_price .ratings .artist_name {
+        font-size: 30px !important;
+    }
+
+    .taskersAndPrices .artists .review_side .ratings_and_price .price_sec .great_value {
+        font-size: 15px !important;
+    }
+
+    .taskersAndPrices .artists .review_side .ratings_and_price .price_sec .price {
+        font-size: 25px !important;
+    }
+
+    .taskersAndPrices .artists .review_side .reviewee .image {
+        width: 80px;
+        height: auto;
+    }
+  
+}

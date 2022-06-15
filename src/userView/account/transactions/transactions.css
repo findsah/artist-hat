@@ -1,0 +1,82 @@
+.transactionHistory-heading {
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.transactionHistory-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.transactionHistory-sec .page-link {
+    color: #707070;
+    border: none;
+}
+
+.transactionHistory-sec .page-link>.sr-only {
+    display: none;
+}
+
+.transactionHistory-sec .page-item.active .page-link {
+    color: #707070;
+    background-color: #e9ecef;
+}
+
+.transactionHistory-sec .page-link:hover {
+    color: #707070;
+    background-color: transparent;
+}
+
+.transactionHistory-sec .h2-heading {
+    font-size: 25px;
+    font-weight: bold;
+    color: #3f250e;
+}
+
+.transactionHistory-sec .h4-heading {
+    font-size: 25px;
+    font-weight: 500;
+    color: #3f250e;
+}
+
+.transactionHistory-sec .h1-heading {
+    font-size: 25px;
+    font-weight: 900;
+    color: #3f250e;
+}
+.transactionHistory-row{
+    justify-content: end;
+    padding: 1% 0;
+}
+.transactionHistory-row .download-section{
+    width: 85%;
+}
+.transactionHistory-row .taxInfo-description-div{
+    width: 85%;
+}
+
+.transactionHistory-row .download-icon{
+    padding: 0 10px 0 0;
+}
+.transactionHistory-row .download-transaction-history{
+    padding: 0 0 0 10px;
+}
+.report-second-row {
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.report-third-row {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.download-transaction-history {
+    border-left: 1px solid #b3b3b3;
+    color: #707070;
+    font-size: 15px;
+}
+.download-transaction-history p{
+    font-size: 25px !important;
+}

@@ -1,0 +1,189 @@
+.userview-sec {
+    padding: 0;
+    background: linear-gradient(to bottom, #fef9ed 0%, #fff 100%);
+}
+
+.userview-con {
+   padding: 29px;
+}
+
+.userProfile-leftbar {
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.user-name {
+    color: #fdd043;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.user-shortDesc {
+    color: #8e979c;
+    font-size: 8px;
+}
+
+.user-longDesc {
+    color: #454f63;
+    font-size: 9px;
+}
+
+
+.leftBar-innerRow {
+    background-color: #efefef;
+    border-radius: 2rem;
+}
+.profile_avatar{
+    /* width: 109px;
+    height: 108px; */
+    /* object-fit: contain; */
+    border-radius: 20px;
+}
+.hourly-rate {
+    color: #523105;
+    font-weight: bolder;
+    font-size: 10px;
+}
+
+.share {
+    color: #fdd043;
+    font-size: 8px;
+}
+
+.see-more {
+    color: #523105;
+    font-size: 8px;
+    font-weight: bolder;
+}
+
+.profleCompletin-rate {
+    background: #fff;
+    padding: 5px 0;
+    border: 1px solid #B4B4B5;
+    border-radius: 3rem;
+    color: #707070;
+    font-size: 8px;
+    font-weight: 500 !important;
+}
+
+.social-media {
+    color: #707070;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.public-profile, .update-profile {
+    background: #fff;
+    border: 2px solid #B4B4B5;
+    border-radius: 3rem;
+    color: #ffd100;
+    font-size: 8px;
+    font-weight: bolder !important;
+    padding: 5px 15px;
+}
+
+.skills-main-sec {
+    background-color: #efefef;
+    border-top-left-radius: 2rem;
+
+}
+
+.rates-and-skills {
+    font-size: 22px;
+    font-weight: bolder !important;
+    text-align: center;
+    color: #523105;
+}
+
+.skills-inner-sec {
+    background-color:#fdd043;;
+    border-radius: 2rem 0 2rem 2rem;
+    /* border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem; */
+}
+
+.skills-inner-sec .skills {
+    font-size: 15px;
+    font-weight: bolder !important;
+    text-align: start;
+    color: #523105;
+}
+
+.arrow-dropDown {
+    height: 3em;
+    width: auto;
+    color: #ffd100;
+}
+
+.skills-tabs {
+    border-radius: 2rem 0 0 2rem;
+}
+
+.backgrond-active {
+    background-color: #fff;
+}
+
+.profile-nav-sec .your-profile {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #523105;
+}
+
+.profile-nav-sec .preview {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #ffd100;
+    ;
+}
+.profile-tabs{
+    padding: 10% 0;
+}
+.profileNav-tabs {
+    padding: 2px 4px;
+    background-color: #fff;
+    border: 1px solid #B4B4B5;
+    border-radius: 10px;
+}
+.profileNav-tabs-active{
+    background-color: #fdd043;
+}
+.profileArrow-div {
+    line-height: 1;
+    text-align: end;
+}
+
+.profileArrow-dropDown {
+    height: 1em;
+    width: auto;
+    color: #fdd043;
+}
+.profile-arrow-active{
+    color: #fff;
+}
+
+.rateAndSkills-img {
+    width: 29px;
+    height: auto;
+}
+
+.profileRatesTab-text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 6px;
+    line-height: 1.83;
+    letter-spacing: 1.8px;
+    color: #523106;
+}
+.userview-sec .hr-line{
+    height: 1.5px !important;
+    background-color: #523105;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .userview-con {
+        padding: 10px !important;
+     }
+}

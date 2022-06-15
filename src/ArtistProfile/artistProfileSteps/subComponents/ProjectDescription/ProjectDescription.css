@@ -1,0 +1,218 @@
+.data-sec .description {
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: -0.27px;
+    text-align: left;
+    color: #241332;
+}
+
+.data-sec .painting {
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.6;
+    letter-spacing: -0.15px;
+    color: #241332;
+}
+
+.data-sec .project-location {
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #818181;
+}
+
+.data-sec .address-input::placeholder {
+    padding-left: 57px;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a8a5a5;
+}
+
+.data-sec .continue {
+    margin: 20.4px 0 49px 8px;
+}
+
+.pd-paragraphs {
+    color: #523105;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.headings {
+    color: #523105;
+    font-size: 25px;
+}
+
+.data-sec .estimated-size {
+    font-size: 11px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.22px;
+    text-align: left;
+    color: #523105;
+}
+
+.address-input-group {
+    background-color: #fff !important;
+    padding: 4px 0px 4px 4px !important;
+    border: 2px solid #B4B4B5 !important;
+    border-radius: 2rem !important;
+}
+
+.address-input-row {
+    padding: 25px 10px 20px;
+    background-color: #f4f4f5;
+    border-radius: 30px;
+}
+
+.tell-task-details {
+    justify-content: center;
+    margin-top: 9.2%;
+}
+
+.data-sec .summary-section p {
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    color: #9599b2;
+}
+
+.address-input {
+    border-radius: 2rem !important;
+    border: none;
+    width: 80%;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.input-group-text {
+    color: #DED6D3 !important;
+    background-color: #ffffff00 !important;
+    border: none !important;
+    border-radius: 2rem !important;
+    width: 20%;
+    border-left: 2px solid #B4B4B5 !important;
+}
+
+.projectLocation-row {
+    padding: 5% 9%;
+    background-color: #f4f4f5;
+    border-radius: 30px;
+}
+
+.radioLabel-container {
+    position: relative;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    padding-left: 15px;
+    line-height: 2.14;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px !important;
+    color: #523106;
+    letter-spacing: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.radioLabel-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.radioLabel-container:hover input~.checkmark {
+    background-color: #fff;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.radioLabel-container input:checked~.checkmark {
+    background-color: #fed02f;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.radioLabel-container input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* taskDetails section */
+
+.taskDetails-section {
+    padding: 5% 10%;
+    background-color: #f4f4f5;
+    border-radius: 30px;
+}
+
+.summary-section {
+    font-size: 12px;
+    font-weight: 400;
+    color: #B4B4B5;
+    background-color: #fff;
+    padding: 3% 10% 10% 2%;
+    border-radius: 30px;
+}
+
+.fileSize {
+    color: #fff;
+    padding: .3rem 2.5rem;
+    background-color: #fdd035;
+    border-radius: 3rem;
+}

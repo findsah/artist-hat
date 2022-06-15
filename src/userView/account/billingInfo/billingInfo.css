@@ -1,0 +1,43 @@
+.billinInfo-heading {
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: #3f250e;
+}
+
+.billinInfo-sec {
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 5%;
+}
+.billinInfo-sec .buttons{
+grid-gap: 15px 0;
+}
+.billinInfo-sec .buttons .button{
+    text-align: center;
+}
+.billing-input-group{
+    padding: 12px 4px 12px 4px !important;
+    background-color: #fff !important;
+    border: 1px solid #B4B4B5 !important;
+    border-radius: 2rem !important;
+    justify-content: space-between;
+}
+.billing-input-group .card-inputs{
+    width: 100%;
+}
+.billing-input-group input::placeholder{
+    font-weight: bolder !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
+}
+@media only screen and (max-width: 991px)
+{
+    .billing-input-group input::placeholder{
+        font-size: 12px !important;
+    }
+    .billinInfo-sec {
+        padding: 10% !important;
+    }
+
+}

@@ -1,0 +1,7 @@
+.container-fluid{
+    background: linear-gradient(to bottom, #fef9ed 0%, #fff 100%);
+}
+.container-fluid .container{
+    margin: 0 auto !important;
+    max-width: 90.1%;
+}

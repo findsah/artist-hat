@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.painttext {
+    font-weight: 500;
+    font-size: 29px;
+    color: #3f250e;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.pickArtist-paragraph {
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.painting-paragraphs {
+    color: #523105;
+    font-size: 14px;
+}
+
+.scope-heading {
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #523105;
+}
+
+.quick-heading {
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #523105;
+}
+
+.dollarbtn {
+    height: 80px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #FED12F;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.checkboxbtn {
+    background-color: #FED12F;
+}
+
+.scondbtn {
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #FED12F;
+    font-size: 20px;
+}
+
+.hrtext {
+    font-size: 10px;
+}
+
+.hr2text {
+    font-size: 15px;
+}
+
+.taskers {
+    margin-top: 60px;
+}
+
+.taskers .rate_artist{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.zero {
+    margin-top: -11px;
+    line-height: 1px;
+}
+
+.clienttxt {
+    margin-left: 8px;
+}
+
+.fourtybtnn {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.progresscolor {
+    background-image: linear-gradient(to right, rgb(0, 255, 34), yellow, red);
+    margin-bottom: 50px;
+    border-radius: 8px !important;
+}
+
+.progressbar {
+    margin-top: 100px;
+}
+
+.pitch {
+    height: 284.8px;
+    background: #ECEBEB;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+.pitchparagraph {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    width: 100%;
+    font-size: 13px;
+    color: #8a8a8a;
+    }
+    .pitchparagraph::placeholder{
+        color: #B4B4B5;
+        opacity: 0.7;
+    }
+.yourquick {
+    margin-left: 21px;
+}
+
+.lastcol {
+    display: flex;
+}
+
+.savebtn {
+    width: 150px;
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 1px;
+    float: right;
+
+}
+
+.cancelbtn {
+
+    width: 150px;
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 1px;
+    opacity: 1;
+    background: white;
+    float: left;
+    margin-left: 27px;
+
+
+}
+
+.savecancel {
+    display: flex;
+
+}
+
+.removebtn {
+    width: 150px;
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 20px;
+    font-size: 10px;
+    padding: 1px;
+    float: right;
+    opacity: 1;
+    background: white;
+
+
+}
+
+.sectionthree {
+    margin-top: 15px;
+}
+
+.borderline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.lastdiv {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mainheader {
+    background-color: #fff;
+    padding: 45px 104px;
+    object-fit: contain;
+    padding: 161.9px 152.9px 58px 88.6px;
+    border-radius: 30px;
+}
+
+.pickheading {
+    font-size: 18px;
+    font-weight: bolder !important;
+    color: #523105;
+}
+
+.subheadings {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 13px;
+}
+
+.mosttaskers {
+    font-size: 13px;
+}
+
+.hr2text .signbtn {
+    font-size: 30px;
+}
+
+
+/* Progressbar */
+
+
+.multicolor-bar .values .value {
+	float: left;
+	text-align: center;
+}
+
+.multicolor-bar .scale .graduation {
+	float: left;
+	text-align: center;
+}
+
+.multicolor-bar .bars .bar {
+	float: left;
+	height: 10px;
+}
+
+.multicolor-bar .bars div.bar:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.multicolor-bar .bars div.bar:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.multicolor-bar .legends {
+	text-align: center;
+}
+
+
+.multicolor-bar .legends .legend {
+    display: inline-block;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.multicolor-bar .legends .legend .dot {
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.multicolor-bar .legends .legend .label {
+	margin-left: 2px;
+	vertical-align: middle;
+}
+
+
+    @media only screen and (max-width: 1919px) and (min-width: 1080px) {
+        .pickArtist-paragraph {
+        font-size: 11px !important;
+        }
+        .painting-paragraphs {
+            font-size: 11px !important;
+        }
+        
+    }
+@media screen and (min-width:420px) and (max-width:575px) {
+    .mosttaskers {
+        margin-top: 40px;
+    }
+
+    .completecatagry {
+        margin-top: 40px;
+    }
+
+    .removeball {
+        margin-top: 40px;
+        margin-right: 500px;
+    }
+
+    .removebtn {
+        width: 150px;
+        border: 1px solid black;
+        height: 25px;
+        border-radius: 20px;
+        font-size: 10px;
+        padding: 1px;
+        float: left;
+        opacity: 1;
+        background: white;
+
+
+    }
+
+
+}
+
+@media screen and (min-width:300px) and (max-width:425px) {
+    .mosttaskers {
+        margin-top: 40px;
+    }
+
+    .completecatagry {
+        margin-top: 40px;
+    }
+
+    .removeball {
+        margin-top: 40px;
+    }
+
+    .removebtn {
+        width: 140px;
+        border: 1px solid black;
+        height: 25px;
+        border-radius: 20px;
+        font-size: 10px;
+        padding: 1px;
+        float: left;
+        opacity: 1;
+        background: white;
+
+
+    }
+
+}
+
+@media screen and (min-width:30px) and (max-width:299px) {
+    .mosttaskers {
+        margin-top: 40px;
+    }
+
+    .completecatagry {
+        margin-top: 40px;
+
+    }
+
+    .removeball {
+        margin-top: 40px;
+    }
+
+    .removebtn {
+        width: 95px;
+        border: 1px solid black;
+        height: 25px;
+        border-radius: 20px;
+        font-size: 8px;
+        padding: 1px;
+        float: left;
+        opacity: 1;
+        background: white;
+
+
+    }
+
+}
