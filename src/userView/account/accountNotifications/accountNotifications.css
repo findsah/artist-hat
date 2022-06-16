@@ -30,9 +30,10 @@
 .communicaitons-first-row{
     border-bottom: 1px solid #b3b3b3;;
 }
-.accountNotificaions-sec .buttons{
-    grid-gap: 15px 0;
-}
+
+.accountNotificaions-sec .accountButtons .save{
+text-align: end;    
+    }
 @media only screen and (max-width: 1919px) {
 .communication-tablet-sec{
     display: block !important;

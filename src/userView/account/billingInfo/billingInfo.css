@@ -10,10 +10,10 @@
     border-radius: 2rem;
     padding: 5%;
 }
-.billinInfo-sec .buttons{
+.billinInfo-sec .accountButtons{
 grid-gap: 15px 0;
 }
-.billinInfo-sec .buttons .button{
+.billinInfo-sec .accountButtons .button{
     text-align: center;
 }
 .billing-input-group{

@@ -8,6 +8,14 @@
 .accountBalance-sec {
     background-color: #fff;
     border-radius: 2rem;
+    padding: 8%;
+}
+.accountBalance-sec .accountBalance_row, .accountBalance_row2{
+    justify-content: center;
+    margin-left: 10px;
+}
+.accountBalance-sec .accountBalance_row2{
+    margin-top: 20%;
 }
 .redemptionCode-sec{
     margin-top: 5rem;

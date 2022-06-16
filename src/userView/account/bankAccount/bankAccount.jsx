@@ -25,19 +25,15 @@ const BankAccount = () => {
             <div className='pb-4'><h2 className='h1_heading'>BANK ACCOUNT</h2></div>
             <div className='bankAccount-sec'>
                 <div className='row text-center'>
-                    <div className='col-4 bankDetails-headings-div'>
-                        <div className='px-lg-3 pb-3'>
+                    <div className='col-5 col-lg-4 bankDetails-headings-div'>
+                        <div className='credentialsWrapper'>
                             <h2 className='bankDetails-headings'>SORT CODE</h2>
-                        </div>
-                        <div className='px-3 py-3'>
                             <h2 className='bankDetails-headings'>ACCOUNT NUMBER</h2>
                         </div>
                     </div>
-                    <div className='col-4'>
-                        <div className='pb-3'>
+                    <div className='col-7 col-lg-8'>
+                    <div className='credentialsWrapper'>
                             <input type='password' placeholder='207320111w3e' className='accountDetails-input'></input>
-                        </div>
-                        <div className='py-3'>
                             <input type='password' placeholder='111*****122' className='accountDetails-input'></input>
                         </div>
                     </div>
@@ -69,12 +65,12 @@ const BankAccount = () => {
                         </div>
                     </div>
                 </div>
-                <div className='row pt-5'>
-                    <div className="col-12 col-lg-6">
-                        <Button color='#fdd043' text='SAVE' padding='2px 0' fontSize="10px" className='buttonDimensions' border='1.5px solid #B4B4B5' height='40px' width='100%' event={handleSubmit} />
+                <div className='row accountButtons'>
+                    <div className='col-12 col-lg-6 save'>
+                        <Button color='#fdd043' text='SAVE' padding='1px 0' fontSize="10px" border='1.5px solid #B4B4B5' className='buttonDimensions' height='40px' width={matches ? '222px' : '297px'} />
                     </div>
-                    <div className="col-12 col-lg-6">
-                        <Button color='#fff' text='CANCEL' padding='2px 0' fontSize="10px" border='1.5px solid #B4B4B5' className='buttonDimensions' height='40px' width='100%' />
+                    <div className='col-12 col-lg-6 cancel'>
+                        <Button color='#fff' text='CANCEL' padding='1px 0' fontSize="10px" border='1.5px solid #B4B4B5' className='buttonDimensions' height='40px' width={matches ? '222px' : '297px'} />
                     </div>
                 </div>
             </div>

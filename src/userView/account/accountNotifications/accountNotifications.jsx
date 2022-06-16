@@ -145,11 +145,11 @@ const AccountNotifications = () => {
                         </div>
                     </div>
                 </div>
-                <div className='row buttons'>
-                    <div className='col-12 col-lg-6 text-end'>
+                <div className='row accountButtons'>
+                    <div className='col-12 col-lg-6 save'>
                         <Button color='#fdd043' text='SAVE' padding='1px 0' fontSize="10px" border='1.5px solid #B4B4B5' className='buttonDimensions' height='40px' width={matches ? '222px' : '297px'} />
                     </div>
-                    <div className='col-12 col-lg-6'>
+                    <div className='col-12 col-lg-6 cancel'>
                         <Button color='#fff' text='CANCEL' padding='1px 0' fontSize="10px" border='1.5px solid #B4B4B5' className='buttonDimensions' height='40px' width={matches ? '222px' : '297px'} />
                     </div>
                 </div>

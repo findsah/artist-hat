@@ -69,16 +69,16 @@
     margin: 3% 0 8%;
 }
 
-.cancelTask-second-row .cancelTask-description-div {
-    border: none;
-}
 
 .buttonDimensions {
     height: 40px;
     width: 222px;
 }
 
-
+.accountButtons {
+    margin-top: 48px;
+    grid-gap: 15px 0;
+}
 
 
 
@@ -151,18 +151,12 @@
         justify-content: center !important;
     }
 
-    .cancelTask-description-div {
-        width: 90% !important;
-    }
-
     .taskCancellation_img {
         width: 362.4px !important;
         height: 277.3px !important;
     }
 
-    .cancelTask-second-row .cancelTask-description-div {
-        width: 90% !important;
-    }
+    
 
     .Account-use .radioLabel-container {
         font-size: 18px !important;
@@ -199,6 +193,9 @@
 
     .transactionHistory-row .taxInfo-description-div {
         width: 95% !important;
+    }
+    .cancelTask-sec .cancel_task{
+        width: 222px;
     }
 }
 
@@ -251,15 +248,18 @@
     }
 
     /* change password  */
-    .accountPassword-sec .label-inputfields,.account-number-details .label-inputfields{
+    .accountPassword-sec .label-inputfields,
+    .account-number-details .label-inputfields {
         font-size: 12px !important;
     }
 
-    .accountPassword-sec .password-input-fields, .accountNumber-input-fields {
+    .accountPassword-sec .password-input-fields,
+    .accountNumber-input-fields {
         padding: 4px 17px !important;
     }
 
-    .accountPassword-sec .setting-password,.account-number-details{
+    .accountPassword-sec .setting-password,
+    .account-number-details {
         grid-gap: 15px 0 !important;
     }
 
@@ -275,10 +275,28 @@
 
 
     /* bank account  */
-    .bankAccount-sec{
+    .bankAccount-sec {
         text-align: center !important;
     }
 
+    .bankAccount-sec .bankDetails-headings,
+    .bankAccount-sec .accountDetails-input::placeholder {
+        font-size: 12px !important;
+    }
+
+    .accountButtons .save,
+    .accountButtons .cancel {
+        text-align: center !important;
+    }
+
+    .cancelTask-sec .goToTasks-div,
+    .cancelTask-sec .cancelTask-description-div {
+        text-align: center !important;
+    }
+    .accountBalance-sec .accountBalance_row, .accountBalance_row2{
+        justify-content: start !important;
+        margin-left: 0 !important;
+    }
 }
 
 /* 

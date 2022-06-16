@@ -39,7 +39,7 @@ const BillingInfo = () => {
 
                                 </div>
                     </div>
-                    <div className='row pt-5 buttons'>
+                    <div className='row pt-5 accountButtons'>
                         <div className='col-12 col-lg-6 button'>
                             <Button color='#fdd043' text='SAVE' padding='1px 0' fontSize="10px" border='1.5px solid #B4B4B5' className='buttonDimensions' height='40px' width={matches ? '222px' : '297px'} />
                         </div>

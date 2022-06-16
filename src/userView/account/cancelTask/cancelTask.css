@@ -8,9 +8,25 @@
 .cancelTask-sec {
     background-color: #fff;
     border-radius: 2rem;
+    text-align: center;
+}
+.cancelTask-sec .CancelTask_div{
+    margin-left: 4%;
+}
+.cancelTask-sec .CancelTask_div h2{
+    padding-bottom: 15px;
+}
+.cancelTask-sec .account_content_headings{
+   font-weight: bolder;
+}
+.cancelTask-sec .cancel_task{
+    width: 297px;
+}
+.cancelTask-sec .goToTasks-div ,.cancelTask-sec .cancelTask-description-div{
+    text-align: left;
 }
 .cancelTask-description-div{
-    border-left: 1px solid #b3b3b3;
+    border-left: 2px solid #b3b3b3;
 }
 .cancelTask-description{
     color: #707070;
