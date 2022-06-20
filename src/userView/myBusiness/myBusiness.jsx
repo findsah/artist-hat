@@ -9,11 +9,11 @@ const MyBusiness = () => {
     const percentage = 66;
     return (
         <div className="my-business container">
-            <div className="row">
-                <div className="col-7">
+            <div className="row myBusiness_row">
+                <div className="col-12 col-lg-7">
 
                     <div className="main-headings">My Earnings</div>
-                    <div className="earnings row">
+                    <div className="earnings">
                         <div className="earning col-4">
                             <div className="price">$60</div>
                             <div className="sub-heading">Total Earnings</div>
@@ -42,7 +42,7 @@ const MyBusiness = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-5">
+                <div className="col-12 col-lg-5">
                     <div className="rating-reviews">
                         <div className="main-headings heading-black">Rating & Reviews</div>
                         <div className="row rating-reviews-row">
@@ -65,7 +65,7 @@ const MyBusiness = () => {
                     <div className="elite-status">
                         <div className="main-headings heading-black">May Elite Status</div>
                         <div className="row how-to-qualify">
-                            <div className="col-8" style={{ paddingLeft: '20px'}}><div className="sub-heading">How to Qualify for Elite</div></div>
+                            <div className="col-8 qualify_heading"><div className="sub-heading">How to Qualify for Elite</div></div>
                         </div>
                         <div className="row elite-status-row">
                         

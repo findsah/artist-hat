@@ -1,40 +1,45 @@
-.my-business .main-headings{
+.my-business .main-headings {
     font-size: 51px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: -0.51px;
-  color: #523105
-  ;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: -0.51px;
+    color: #523105;
 }
-.my-business .earnings{
+.my-business .myBusiness_row{
+    grid-gap: 25px 0;
+}
+.my-business .earnings {
     margin-top: 66px;
     display: flex;
     justify-content: space-around;
     border-right: 1.5px solid #b3b3b3;
-    width: 100%;
 }
-.my-business .rating-reviews-row{
+
+.my-business .rating-reviews-row {
     align-items: center;
     margin-top: 66px;
 }
-.my-business .earnings .earning{
+
+.my-business .earnings .earning {
     text-align: center;
-   /* height: 230px; */
-   max-width: 31.5%;
-  border-radius: 30px;
-  background: #ffd100;
-  padding: 7% 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    /* height: 230px; */
+    max-width: 31.5%;
+    border-radius: 30px;
+    background: #ffd100;
+    padding: 7% 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.my-business .matrices .earnings{
+
+.my-business .matrices .earnings {
     margin-top: 35px;
 }
-.earning .price{
+
+.earning .price {
     font-size: 65px;
     font-weight: bolder;
     font-stretch: normal;
@@ -43,7 +48,8 @@
     letter-spacing: -0.51px;
     color: #fff
 }
-.earning .sub-heading{
+
+.earning .sub-heading {
     font-size: 30px;
     font-weight: 500;
     font-stretch: normal;
@@ -53,7 +59,8 @@
     color: #523105;
     margin-top: 5%;
 }
-.my-business .review-count{
+
+.my-business .review-count {
     font-size: 29px;
     font-weight: 600;
     font-stretch: normal;
@@ -64,50 +71,67 @@
     color: #523105;
 
 }
-.my-business .matrices{
-    margin-top: 200px;
+
+.my-business .matrices {
+    margin-top: 30%;
 }
-.my-business .matrices .main-headings{
+
+.my-business .matrices .main-headings {
     margin: 20px 0;
 }
-.my-business .matrices .earnings{
+
+.my-business .matrices .earnings {
     justify-content: space-around;
 }
-.my-business .heading-black{
+
+.my-business .heading-black {
     color: #352641 !important;
 }
-.my-business .elite-status{
-    margin-top: 200px
+
+.my-business .elite-status {
+    margin-top: 40%
 }
-.my-business .elite-status .how-to-qualify{
+
+.my-business .elite-status .how-to-qualify {
     justify-content: end;
     margin-top: 66px;
 }
-.my-business .elite-status .elite-status-row{
-    
+
+.my-business .how-to-qualify .qualify_heading {
+    padding-left: 20px;
+}
+
+.my-business .elite-status .elite-status-row {
+
     justify-content: center;
     align-items: center;
 }
 
-.my-business .elite-status .sub-heading{
-text-align: left;
+.my-business .elite-status .sub-heading {
+    text-align: left;
 }
-.my-business .CircularProgressbar .CircularProgressbar-path{
+
+.my-business .CircularProgressbar .CircularProgressbar-path {
     stroke: #ffd100 !important;
 }
-.my-business .CircularProgressbar .CircularProgressbar-text{
-fill: #523105;
-font-weight: 900;
+
+.my-business .CircularProgressbar .CircularProgressbar-text {
+    fill: #523105;
+    font-weight: 900;
 }
-.my-business .circularBar{
+
+.my-business .circularBar {
     display: flex;
     width: 32%;
 }
-.my-business .rating-reviews .circularBar, .elite-status .circularBar{
+
+.my-business .rating-reviews .circularBar,
+.elite-status .circularBar {
     position: relative;
     width: 100%;
 }
-.my-business .circularBar .star{
+
+.my-business .circularBar .star {
     position: absolute;
     width: 16%;
     height: 16%;
@@ -115,7 +139,8 @@ font-weight: 900;
     left: 39%;
     fill: #ffd100;
 }
-.my-business .circularBar .rating-inside{
+
+.my-business .circularBar .rating-inside {
     opacity: 0.5;
     font-size: 11px;
     font-weight: 600;
@@ -126,12 +151,13 @@ font-weight: 900;
     text-align: center;
     color: #523105;
     position: absolute;
-    width: 2rem ;
+    width: 2rem;
     height: 2rem;
     bottom: 15%;
     left: 38%;
 }
-.my-business .elite-status .circularBar{
+
+.my-business .elite-status .circularBar {
     width: 100%;
 }
 
@@ -143,31 +169,33 @@ font-weight: 900;
 /* Create the checkmark/indicator (hidden when not checked) */
 /* Show the checkmark when checked */
 /* Style the checkmark/indicator */
-.my-business .qualify-checks{
+.my-business .qualify-checks {
     width: 100%;
     position: relative;
 }
-.my-business .qualify-checks .hr{
+
+.my-business .qualify-checks .hr {
     top: 0;
     position: absolute;
     left: 2%;
     border-left: 2px solid #523105;
-  height: 80%
+    height: 80%
 }
+
 .my-business .container {
     height: 30px;
-       margin-left: 0 !important;
-       margin-right: 0px !important;
-       padding-right: 0;
-       display: block;
-       position: relative;
-       padding-left: 20px;
-       margin-bottom: 12px;
-       text-align: left;
-       cursor: pointer;
-       font-size: 12px;
-       -webkit-user-select: none;
-       user-select: none;
+    margin-left: 0 !important;
+    margin-right: 0px !important;
+    padding-right: 0;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .my-business .container input {
@@ -177,10 +205,12 @@ font-weight: 900;
     height: 0;
     width: 0;
 }
-.my-business .container input:checked ~ .checkmark {
+
+.my-business .container input:checked~.checkmark {
     background-color: #fed100;
 }
-.my-business .container input:checked ~ .checkmark:after {
+
+.my-business .container input:checked~.checkmark:after {
     display: block;
 }
 
@@ -195,6 +225,7 @@ font-weight: 900;
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+
 .my-business .checkmark {
     position: absolute;
     top: 0;
@@ -203,30 +234,36 @@ font-weight: 900;
     width: 25px;
     background-color: #fff;
 }
+
 .my-business .checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
-.CircularProgressbar .CircularProgressbar-text{
+
+.CircularProgressbar .CircularProgressbar-text {
     font-size: 35px !important;
 }
+
 @media only screen and (max-width: 1919px) and (min-width: 1080px) {
 
-.my-business .main-headings{
-    font-size: 30px !important;
-}
-.earning .price{
-    font-size: 45px !important;
-}
-.earning .sub-heading{
-    font-size: 15px !important;
-}
-.CircularProgressbar .CircularProgressbar-text{
-    font-size: 25px !important;
-}
+    .my-business .main-headings {
+        font-size: 30px !important;
+    }
 
-/* .my-business .circularBar{
+    .earning .price {
+        font-size: 45px !important;
+    }
+
+    .earning .sub-heading {
+        font-size: 15px !important;
+    }
+
+    .CircularProgressbar .CircularProgressbar-text {
+        font-size: 25px !important;
+    }
+
+    /* .my-business .circularBar{
     width: 200px !important;
     height: 200px !important;
 }
@@ -234,4 +271,58 @@ font-weight: 900;
     width: 150px !important;
     height: 150px !important;
 } */
+}
+
+@media only screen and (max-width:991px) {
+    .my-business .main-headings {
+        font-size: 25px !important;
+    }
+
+    .earning .sub-heading {
+        font-size: 15px !important;
+    }
+
+    .my-business .earning .price {
+        font-size: 20px !important;
+    }
+
+    .my-business .CircularProgressbar .CircularProgressbar-text {
+        font-size: 25px !important;
+    }
+
+    .my-business .elite-status,
+    .my-business .matrices {
+        margin-top: 10% !important;
+    }
+
+    .my-business .elite-status-row .circularBar .rating-inside {
+        bottom: 0 !important;
+        left: 32% !important;
+        font-size: 8px !important;
+    }
+
+    .my-business .elite-status-row .container,
+    .my-business .how-to-qualify .qualify_heading {
+        padding-left: 30px !important;
+    }
+    .my-business .rating-reviews-row,.my-business .earnings {
+        margin-top: 15px !important;
+        
+    }
+    .my-business .rating-reviews-row{
+        justify-content: center !important;
+    }
+    .my-business .elite-status .how-to-qualify {
+        margin-top: 20px !important;
+        font-size: 13px !important;
+        font-weight: 600 !important;
+    }
+
+    .my-business .qualify-checks .hr {
+        left: 3% !important;
+    }
+
+    .my-business .earnings {
+        border: none !important;
+    }
 }
