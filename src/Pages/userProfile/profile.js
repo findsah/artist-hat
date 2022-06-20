@@ -58,7 +58,6 @@ const Profile = () => {
         postal_address : ""
     });
 
-   console.log(Id,'thisisisiisiissssssssssssss')
     if(!token){
         navigate('/userregistration')
     }else{

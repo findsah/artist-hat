@@ -103,7 +103,7 @@ const UserRegistration = () => {
       const data = dispatch(getArtistData(slug));
       if(data){
         setLogedIn(true)
-        navigate("/artistView");
+        navigate("/profile");
        }
     }
     getdata();
@@ -130,7 +130,7 @@ const UserRegistration = () => {
          const data = dispatch(getArtistData(slug));
          if(data){
           setLogedIn(true)
-          navigate("/artistView");
+          navigate("/profile");
          }
        
       }else{
