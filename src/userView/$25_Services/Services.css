@@ -1,10 +1,10 @@
-
-.services{
+._25_services {
     padding: 52px 5px 0 129px;
-    justify-content: space-between;
+    grid-gap: 30px;
     align-items: center;
 }
-.refer .description{
+
+.refer .description {
     font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
@@ -14,49 +14,101 @@
     text-align: left;
     color: #3f250e;
 }
-.services .image-section{
+
+._25_services .image-section {
     text-align: center;
 }
-.refer .input-section{
+
+.refer .input-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 11.1%;
     padding: 34px 28px 34px 26px;
-    border-radius: 32px;
+    border-radius: 14px;
     border: solid 1px #adadad;
     background-color: #fff;
 }
 
-.refer .email-address{
+.refer .email-address {
     height: 44.3%;
     width: 74.2%;
     border-radius: 14px;
     border: solid 1px #adadad;
-    padding: 17px;
+    padding: 2%;
 
 }
+
 .refer .email-address::-webkit-input-placeholder {
     font-size: 19px !important;
     line-height: 4;
     text-align: left;
 }
-.input-section .invite-button{
-    padding: 17px 20px;
+
+.input-section .invite-button {
+    padding: 2%;
     width: 23.3%;
     height: 44.3%;
-    border-radius: 20px;
+    border-radius: 14px;
     background-color: #fed12f;
 }
 
 @media only screen and (max-width: 1919px) and (min-width: 1080px) {
-    .refer .description{
+    .refer .description {
         font-size: 30px !important;
     }
-    .services .image-section{
+
+    ._25_services .image-section {
         margin-top: 5%;
     }
-    .refer .input-section{
+
+    .refer .input-section {
         padding: 25px 28px 25px 26px !important;
     }
-    
-}   
+
+}
+
+@media only screen and (max-width:991px) {
+    ._25_services {
+        padding: 0 !important;
+    }
+
+    ._25_services .refer .description {
+        font-size: 20px !important;
+    }
+    ._25_services .refer .input-section{
+        padding: 10px !important;
+    }
+    ._25_services .input-section .invite-button {
+        border-radius: 8px !important;
+        font-size: 10px !important;
+    }
+    ._25_services .refer .email-address {
+        border-radius: 8px !important;
+    }
+    ._25_services .refer .email-address::-webkit-input-placeholder {
+        font-size: 10px !important;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:280px) {
+
+    ._25_services .refer .description {
+        font-size: 13px !important;
+    }
+    ._25_services .refer .input-section{
+        padding: 5px !important;
+        border-radius: 8px !important;
+    }
+    ._25_services .input-section .invite-button {
+        border-radius: 4px !important;
+        font-size: 7px !important;
+    }
+    ._25_services .refer .email-address {
+        border-radius: 4px !important;
+        padding: 0 !important;
+    }
+    ._25_services .refer .email-address::-webkit-input-placeholder {
+        font-size: 7px !important;
+    }
+}

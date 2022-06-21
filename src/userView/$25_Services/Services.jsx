@@ -5,7 +5,7 @@ import gift from '../../Assets/$25-services.png'
 const Services = () => {
   return (
     <div>
-      <div className="row services">
+      <div className="row _25_services">
         <div className="col-12 col-xl-7 refer">
           <div className="description">
             Refer a friend to ArtistHat.
