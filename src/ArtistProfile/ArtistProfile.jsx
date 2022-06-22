@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './ArtistProfile.css';
 import AboutArtist from './Components/AboutArtist';
 import { VscDeviceCamera } from 'react-icons/vsc';
@@ -10,7 +10,6 @@ import { MdAdd } from 'react-icons/md';
 import Button from '../Components/button/button';
 import ArtistButton from './Components/button/artistButton';
 const ArtistProfile = () => {
-   
     
     return (
         <div className="aboutArtistSec">

@@ -4,6 +4,7 @@ import ReactStars from 'react-rating-stars-component';
 import '../taskersAndPrices.css'
 import Button from "../../../../../Components/button/button";
 const ArtistsList = ({ handleClick }) => {
+    
     const [matches, setMatches] = useState(
         window.matchMedia("(max-width: 1919px)").matches
     )

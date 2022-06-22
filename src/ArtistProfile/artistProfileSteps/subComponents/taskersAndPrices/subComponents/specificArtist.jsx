@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../taskersAndPrices.css';
 import featured from '../../../../../Assets/featured.jpg';
 import michel from '../../../../../Assets/michel.png';
@@ -7,8 +7,18 @@ import ReactStars from 'react-rating-stars-component';
 import AboutArtist from '../../../../Components/AboutArtist';
 import ArtistButton from '../../../../Components/button/artistButton';
 import Button from '../../../../../Components/button/button';
+import { useSelector } from 'react-redux';
 
 const SpecificArtist = () => {
+    const [matches, setMatches] = useState(
+        window.matchMedia("(max-width: 991px)").matches
+    )
+    useEffect(() => {
+        window
+            .matchMedia("(max-width: 991px)")
+            .addEventListener('change', e => setMatches(e.matches));
+    }, []);
+    const artistPublicProfile = useSelector((state) => state.artist_Public_Profile.profile);
 
     const [toggleState, setToggleState] = useState(1);
 
@@ -20,55 +30,62 @@ const SpecificArtist = () => {
     };
     return (
         <div className="aboutArtistSec">
-            <div className="container aboutArtisInnerCont">
-                    <AboutArtist artistMdcoL='3' />
+            <div className="aboutArtisInnerCont">
+                
+                    <AboutArtist artistMdcoL='3' data={artistPublicProfile && artistPublicProfile} />
                     <div className="row align-items-end">
-                        <div className="col-3">
+                        <div className="col-12 col-lg-3 text-center">
                         <ArtistButton color='#fed12f' text='HELP'
                          fontSize="10px" 
                         border='1px solid #B4B4B5' height='40px' width='130px' />
                         </div>
-                        <div className="col-9">
+                        <div className="col-12 col-lg-9 text-center">
                             <div>
                                 <h4 className="aboutHeading">ABOUT ME</h4>
                                 <hr></hr>
-                                <p className="aboutParagraph">t is a long established fact that a reader will
-                                    be distracted by the readable content of a page when looking at its layout.</p>
+                                <p className="aboutParagraph">{artistPublicProfile && artistPublicProfile.bio}</p>
                             </div>
                             <div className="d-flex justify-content-end">
                                 <h6>Read more</h6>
                             </div>
                         </div>
                     </div>
-
-                    <div className="row justify-content-center reviewGalleryButtons">
-                            <div className="col-6 text-center">
+                    <div className='row reviewGalleryButtons'>
+                    <div className='col-12 col-lg-6 save'>
+                        <Button color='#fdd043' text='Reviews' fontWeight={matches ? 'normal' : '900'} padding='1px 0' fontSize={matches ? '10px' : '22px'} border='1.5px solid #B4B4B5' className='buttonDimensions' height={matches ? '40px' : '67px'} width={matches ? '222px' : '297px'}    event={() => toggleTab(1)}/>
+                    </div>
+                    <div className='col-12 col-lg-6 cancel'>
+                        <Button color='#fff' text='Gallery' padding='1px 0' fontWeight={matches ? 'normal' : '900'} fontSize={matches ? '10px' : '22px'} border='1.5px solid #B4B4B5' className='buttonDimensions'  height={matches ? '40px' : '67px'} width={matches ? '222px' : '297px'}  event={() => toggleTab(2)} />
+                    </div>
+                </div>
+                    {/* <div className="row reviewGalleryButtons">
+                            <div className="col-12 col-lg-6 text-center">
                                 <Button color='#fff'
                                     textColor='#523105'
                                     text='Reviews'
                                     padding='6px'
                                     height='67px'
-                                    width='427px'
+                                    width='100%'
                                     fontSize="22px"
                                     fontWeight='900'
                                     border='1.5px solid #B4B4B5'
                                     event={() => toggleTab(1)} />
                             </div>
-                            <div className="col-6 text-center">
+                            <div className="col-12 col-lg-6 text-center">
 
                                 <Button color='#fed12f'
                                     textColor='#523105'
                                     text='Gallery'
                                     padding='6px'
                                     height='67px'
-                                    width='427px'
+                                    width='100%'
                                     fontSize="22px"
                                     fontWeight='900'
                                     border='1.5px solid #B4B4B5'
                                     event={() => toggleTab(2)} />
                             </div>
 
-                        </div>
+                        </div> */}
                         <div className="tab-content" id="pills-tabContent">
                             <div className={`${toggleState === 1 ? 'tab-pane fade show active ' : 'tab-pane fade'}`} id="pills-reviews" role="tabpanel" aria-labelledby="pills-home-tab">
                                 {/* Reviews Section */}
@@ -76,7 +93,7 @@ const SpecificArtist = () => {
                                     <div className='row reviews-row' style={{
                                         overflow: "auto"
                                     }}>
-                                        <div className='reviewsCard'>
+                                        <div className='col-12 col-lg-6 reviewsCard'>
                                             <div className='row' >
                                                 <div className='col-2 d-flex justify-content-center align-items-top' style={{ padding: "10px" }}>
                                                     <img className="reviewee-img" src={michel} alt="img" />
@@ -94,13 +111,11 @@ const SpecificArtist = () => {
                                                     <p className='review-content'>
                                                         It was a great experience.He was so creative and make my
                                                         sculpture a masterpiece.
-                                                        It was a great experience.He was so creative and make my
-                                                        sculpture a masterpiece.
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='reviewsCard'>
+                                        <div className='col-12 col-lg-6 reviewsCard'>
                                             <div className='row' >
                                                 <div className='col-2 d-flex justify-content-center align-items-top' style={{ padding: "10px" }}>
                                                     <img className="reviewee-img" src={michel} alt="img" />
@@ -121,7 +136,7 @@ const SpecificArtist = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='reviewsCard'>
+                                        <div className='col-12 col-lg-6 reviewsCard'>
                                             <div className='row' >
                                                 <div className='col-2 d-flex justify-content-center align-items-top' style={{ padding: "10px" }}>
                                                     <img className="reviewee-img" src={michel} alt="img" />
@@ -142,7 +157,7 @@ const SpecificArtist = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='reviewsCard'>
+                                        <div className='col-12 col-lg-6 reviewsCard'>
                                             <div className='row' >
                                                 <div className='col-2 d-flex justify-content-center align-items-top' style={{ padding: "10px" }}>
                                                     <img className="reviewee-img" src={michel} alt="img" />
@@ -163,7 +178,7 @@ const SpecificArtist = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='reviewsCard'>
+                                        <div className='col-12 col-lg-6 reviewsCard'>
                                             <div className='row my-3'>
                                                 <div className='col-2 d-flex justify-content-center align-items-top' style={{ padding: "10px" }}>
                                                     <img className="reviewee-img" src={michel} alt="img" />
@@ -184,7 +199,7 @@ const SpecificArtist = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='reviewsCard'>
+                                        <div className='col-12 col-lg-6 reviewsCard'>
                                             <div className='row my-3'>
                                                 <div className='col-2 d-flex justify-content-center align-items-top' style={{ padding: "10px" }}>
                                                     <img className="reviewee-img" src={michel} alt="img" />
@@ -205,7 +220,7 @@ const SpecificArtist = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className='reviewsCard'>
+                                        <div className='col-12 col-lg-6 reviewsCard'>
                                             <div className='row my-3'>
                                                 <div className='col-2 d-flex justify-content-center align-items-top' style={{ padding: "10px" }}>
                                                     <img className="reviewee-img" src={michel} alt="img" />

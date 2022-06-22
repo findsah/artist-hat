@@ -68,7 +68,6 @@ const Profile = () => {
         }
     }
   
-    console.log(userData, ' this is today ')
     const handleChange = (e, flag) => {
         setLoading(false)
         const { name, value } = e.target;

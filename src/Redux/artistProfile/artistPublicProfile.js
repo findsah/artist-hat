@@ -1,13 +1,13 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
-
-export const getArtistReviews = createAsyncThunk(
-    'ArtistReviews',
+export const getArtistPublicProfile = createAsyncThunk(
+    'getArtistPublicProfile',
     async (userId, thunkAPI) => {
+        console.log('thisis is called')
 
         try {
             const response = await fetch(
-                `https://artisthat.herokuapp.com/artist/get_reviews_of_artist/${userId}/`,
+                `https://artisthat.herokuapp.com/artist/artist_public_profile/${userId}/`,
                 {
                     method: 'GET',
                     headers: {
@@ -19,6 +19,7 @@ export const getArtistReviews = createAsyncThunk(
             let data = await response.json();
 
             if (response.status === 200) {
+                console.log(data, ' this is public asyncThunc data')
                 return data;
             } else {
                 return thunkAPI.rejectWithValue(data);
@@ -39,10 +40,12 @@ export const artistPublicProfile = createSlice({
 
         ],
     },
-    reducers: {
-        [getArtistReviews.fulll]: (state, { payload }) => {
-            state.reviews = payload;
+    extraReducers: {
+        [getArtistPublicProfile.fulfilled]: (state, { payload }) => {
+            state.profile = payload[0];
+            console.log(state, 'ttttttttt')
         },
+        
     }
 })
 export default artistPublicProfile.reducer;

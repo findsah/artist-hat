@@ -26,7 +26,7 @@ import {
   REGISTER,
 } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
-import { artistPublicProfile } from './Redux/artistProfile/artistPublicProfile';
+import artistPublicProfile from './Redux/artistProfile/artistPublicProfile';
 const persistConfig = {
   key: 'root',
   version: 1,
@@ -38,7 +38,8 @@ const appReducer  = combineReducers({
   articleStory: articleStoryReducer,
   userProfile : userProfileReducer,
   ArtistData : ArtistData,
-  artistPublicProfile: artistPublicProfile
+  artist_Public_Profile: artistPublicProfile
+  
 })
 
 const persistedReducer = persistReducer(persistConfig, appReducer )

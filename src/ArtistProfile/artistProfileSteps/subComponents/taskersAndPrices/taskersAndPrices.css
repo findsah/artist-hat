@@ -94,6 +94,14 @@
     flex-direction: column;
 }
 
+.reviewGalleryButtons {
+    margin-top: 48px;
+    grid-gap: 15px 0;
+}
+.reviewGalleryButtons .save ,.reviewGalleryButtons .cancel{
+    text-align: center;
+}
+
 .taskersAndPrices .artists .artistProfile {
     align-items: center;
     display: flex;
@@ -282,8 +290,8 @@
 }
 
 .reviews-row {
+    grid-gap: 5%;
     height: 1000px;
-    padding: 1rem;
     border-radius: 1.5rem;
     overflow: auto;
 }
@@ -292,7 +300,6 @@
     margin-bottom: 2%;
     height: 150px;
     flex: 0 0 auto;
-    width: 50%;
 }
 
 .reviewee-img {
@@ -310,11 +317,13 @@
 .review-content {
     color: #817889;
 }
+
 @media only screen and (max-width: 1366px) and (min-width: 1080px) {
     .taskersAndPrices .artists .profile_side .viewProfile_reviews {
         margin-top: 15% !important;
     }
 }
+
 @media only screen and (max-width: 1919px) and (min-width: 1080px) {
     .taskersAndPrices .artists .profile_side .viewProfile_reviews {
         font-size: 14px !important;
@@ -349,5 +358,16 @@
         width: 80px;
         height: auto;
     }
-  
+
+}
+
+@media only screen and (max-width:991px) {
+    .reviews-row .reviewsCard .reviewee-img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .reviews-sec {
+        padding: 0 !important;
+    }
 }
