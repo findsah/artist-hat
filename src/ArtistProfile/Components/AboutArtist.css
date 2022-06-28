@@ -1,7 +1,10 @@
         .artistIntroRow {
             position: relative;
-            top: -9rem;
             justify-content: end;
+        }
+
+        .artistIntroRow {
+            margin-bottom: 5%;
         }
 
         .aboutArtist-content {
@@ -22,11 +25,12 @@
 
         .artistIntroRow .artistIntro {
             height: auto;
-            width: 70%;
-            padding: 2% 0 0 11%;
+            width: 50%;
+            padding: 2% 0 0 10%;
             background-color: #f4f4f5;
             border-radius: 66px;
             /* margin-left: 53px; */
+            margin: auto;
         }
 
         .artistIntroRow .rate-section::after {
@@ -102,12 +106,14 @@
         }
 
         .artistIntroRow .select-and-continue {
-            text-align: end;
+            justify-content: end;
         }
-.about-artist .icons{
-    width: 5%;
-    height: auto;
-}
+
+        .about-artist .icons {
+            width: 5%;
+            height: auto;
+        }
+
         .taskerAndPrices .aboutArtistSec .aboutArtisInnerCont {
             margin: 4% auto !important;
         }
@@ -125,7 +131,6 @@
 
         @media only screen and (max-width: 1919px) and (min-width: 1080px) {
             .artistIntroRow {
-                top: -7rem !important;
                 justify-content: center !important;
             }
 
@@ -136,7 +141,7 @@
             .artistIntroRow .artistIntro {
                 margin: auto;
                 width: 70% !important;
-                padding: 2% 0 2% 15%;
+                padding: 2% 0 2% 20%;
             }
 
             .artistIntro .rate-section {
@@ -160,22 +165,31 @@
 
         @media only screen and (max-width : 991px) {
             .artistIntroRow .artistIntro {
+                padding: 5% !important;
+                margin: 0 !important;
                 width: 100% !important;
             }
-            .about-artist .icons{
+
+            .about-artist .icons {
                 width: 10% !important;
             }
+
             .about-artist .artistSkill {
                 font-size: 15px !important;
             }
-            .artistIntroRow .artistIntro{
-                margin: 0 !important;
-            }
+
             .artistIntroRow .artist-img {
-                left: 10% !important;
-                top: -30% !important;
+                left: 50%;
+                transform: translate(-50%, 0);
+                width: 220px !important;
+                top: -35% !important;
             }
-            .about-artist .ArtistName, .about-artist .artistSkills h3 {
+
+            .about-artist .ArtistName,
+            .about-artist .artistSkills h3 {
                 font-size: 30px !important;
+            }
+            .artistIntroRow .artistIntro_sec {
+                margin-bottom: 5%;
             }
         }

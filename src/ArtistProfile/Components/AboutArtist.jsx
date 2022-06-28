@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import ReactStars from 'react-rating-stars-component';
 import './AboutArtist.css';
 import artistImage from '../../Assets/profileIcon.png';
@@ -11,7 +11,14 @@ import Button from '../../Components/button/button';
 import ArtistButton from './button/artistButton';
 
 const AboutArtist = ({ data }) => {
-
+    const [matches, setMatches] = useState(
+        window.matchMedia("(max-width: 991px)").matches
+    )
+    useEffect(() => {
+        window
+            .matchMedia("(max-width: 991px)")
+            .addEventListener('change', e => setMatches(e.matches));
+    }, []);
 
     const ratingChanged = (newRating) => {
         console.log(newRating);
@@ -22,7 +29,7 @@ const AboutArtist = ({ data }) => {
                 <div className="artist-img position-absolute">
                     <img className="img-fluid" src={artistImage} alt="" />
                 </div>
-                <div style={{ width: '100%' }}>
+                <div className='artistIntro_sec'>
                     <div className="artistIntro row">
                         <div className="ml-5">
                             <div className="artistSkills py-2 col-md-12 px-0">
@@ -66,9 +73,12 @@ const AboutArtist = ({ data }) => {
                     </div>
                 </div>
             </div>
-
-
-            <div className="mt-5 select-and-continue">
+            <div className='row reviewGalleryButtons'>
+                <div className='col-12 col-lg-6 save'>
+                    <Button color='#fff' text='Select & Continue' fontWeight={matches ? 'normal' : '900'} padding='1px 0' fontSize={matches ? '15px' : '22px'} border='1.5px solid #B4B4B5' className='buttonDimensions' height={matches ? '40px' : '67px'} width={matches ? '222px' : '297px'} />
+                </div>
+            </div>
+            {/* <div className="mt-5 select-and-continue">
                 <Button color='#fff'
                     textColor='#523105'
                     text='Select & Continue'
@@ -78,7 +88,7 @@ const AboutArtist = ({ data }) => {
                     fontSize="22px"
                     fontWeight='900'
                     border='1.5px solid #B4B4B5' />
-            </div>
+            </div> */}
         </div>
     )
 }

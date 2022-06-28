@@ -4,7 +4,7 @@ import './artistProfileSteps.css';
 const ArtistProfileSteps = () => {
     return (
         <div className="container-fluid projectDes-sec artistProfileSteps">
-            <div className="position-relative container">
+            <div className="position-relative">
                 <StepsBar 
                 step1="ProjectDescription"
                 step2="TaskersAndPrices"

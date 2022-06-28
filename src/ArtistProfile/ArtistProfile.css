@@ -1,5 +1,5 @@
 .aboutArtistSec {
-    padding: 10% 0 700px;
+    padding: 10% 0 0;
 }
 
 .aboutArtistSec .aboutArtisInnerCont {
@@ -15,7 +15,8 @@
     justify-content: center;
 
 }
-.aboutParagraph {
+
+ .aboutParagraph,.read_more {
     font-size: 25px;
     font-weight: normal;
     font-stretch: normal;
@@ -53,7 +54,7 @@
 .artistGallerySec {
     padding: 4%;
     background: #fff;
-    border-radius: 73px;
+    border-radius: 20px;
 }
 
 .artistGallerySec .form-group {
@@ -219,6 +220,15 @@ form label {
         margin-top: 15% !important;
     }
     .aboutArtistSec{
-        padding: 92% 0 700px !important;
+        padding: 55% 0 0 !important;
+    }
+    .aboutParagraph {
+        font-size: 12px !important;
+    }
+    .read_more{
+        font-size: 15px !important;
+    }
+   .aboutHeading {
+        font-size: 20px !important;
     }
 }

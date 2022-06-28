@@ -95,11 +95,13 @@
 }
 
 .reviewGalleryButtons {
-    margin-top: 48px;
     grid-gap: 15px 0;
 }
-.reviewGalleryButtons .save ,.reviewGalleryButtons .cancel{
-    text-align: center;
+.reviewGalleryButtons .save{
+    text-align: end;
+}
+.reviewGalleryButtons .cancel{
+    text-align: start;
 }
 
 .taskersAndPrices .artists .artistProfile {
@@ -315,6 +317,7 @@
 
 .review-date,
 .review-content {
+    font-size: 25px;
     color: #817889;
 }
 
@@ -370,4 +373,11 @@
     .reviews-sec {
         padding: 0 !important;
     }
+    .reviewGalleryButtons .save ,.reviewGalleryButtons .cancel{
+        text-align: center !important;
+    }
+    .review-date,
+.review-content {
+    font-size: 12px;
+}
 }

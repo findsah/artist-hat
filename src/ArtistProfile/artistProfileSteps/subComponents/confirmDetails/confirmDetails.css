@@ -1,4 +1,4 @@
-.artist-img {
+.confirmDetails-Sec .artist-img {
     left: 2rem;
     z-index: 1;
     top: 2rem;
@@ -10,6 +10,13 @@
     padding: 2% 0 2% 15%;
     background-color: #f4f4f5;
     border-radius: 66px;
+}
+
+.confirmDetails-Sec .about_me_sec {
+    grid-gap: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .confirmDetails-Sec .rate-section::after {
@@ -31,6 +38,7 @@
     margin-top: 2.5%;
     position: relative;
     justify-content: end;
+    grid-gap: 15px 0;
 }
 
 .confirmDetails-Sec .help {
@@ -85,7 +93,7 @@
 .taskDetails-sec {
     padding: 1rem 5rem;
     background-color: #f4f4f5;
-    border-radius: 2rem;
+    border-radius: 30px;
 }
 
 .taskDetails-headings {
@@ -253,4 +261,62 @@
     background-color: #fff;
     padding: 3% 10% 10% 2%;
     border-radius: 2rem;
+}
+
+.confirmDetails-Sec .reviewGalleryButtons{
+    justify-content: center;
+}
+.confirmDetails-Sec .reviewGalleryButtons .cancel{
+    text-align: center;
+}
+@media only screen and (max-width:991px) {
+    .confirmDetails-Sec .about-artist {
+        margin-top: 70% !important;
+    }
+
+    .confirmDetails-Sec .artist-img {
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: 220px !important;
+        top: -32% !important;
+    }
+
+    .confirmDetails-Sec .artistIntro {
+        padding: 5% !important;
+        margin: auto !important;
+    }
+
+    .confirmDetails-Sec .about_me_sec {
+        text-align: center;
+    }
+
+    .confirmDetails-Sec .help_button {
+        text-align: center !important;
+    }
+
+    .confirmDetails-Sec .taskDetails-headings, .confirmDetails-Sec .community-protection, .confirmDetails-Sec .mobile {
+        font-size: 15px !important;
+    }
+
+    .confirmDetails-Sec .taskDetails-sec {
+        padding: 5% !important;
+    }
+
+    .confirmDetails-Sec .summary-section {
+        font-size: 10px !important;
+        padding: 5% !important;
+    }
+
+    .confirmDetails-Sec .billing-input-group {
+        padding: 0 !important;
+    }
+
+    .confirmDetails-Sec .radioLabel-container {
+        font-size: 12px !important;
+
+    }
+    .confirmDetails-Sec .taskDetails_content{
+        justify-content: center;
+    }
+
 }

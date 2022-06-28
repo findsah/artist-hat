@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './confirmDetails.css'
 import ArtistButton from '../../../Components/button/artistButton'
 import ReactStars from 'react-rating-stars-component'
@@ -11,21 +11,29 @@ import location from '../../../../Assets/Location.svg';
 import calendar from '../../../../Assets/Calendar.svg';
 import projects from '../../../../Assets/Projects.svg';
 import car from '../../../../Assets/Car.svg';
+import { useSelector } from 'react-redux'
+import Button from '../../../../Components/button/button'
 
 
 const ConfirmDetails = () => {
+    const artistPublicProfile = useSelector((state) => state.artist_Public_Profile.profile);
+    const [matches, setMatches] = useState(
+        window.matchMedia("(max-width: 991px)").matches
+    )
+    useEffect(() => {
+        window
+            .matchMedia("(max-width: 991px)")
+            .addEventListener('change', e => setMatches(e.matches));
+    }, []);
     const ratingChanged = (newRating) => {
         console.log(newRating);
     };
     return (
-        <div className="container-fluid confirmDetails-Sec">
+        <div className="confirmDetails-Sec">
             <div className='container'>
                 <div className='row about-artist'>
                     <img className="artist-img position-absolute" src={artistImage} alt="" />
-                    <div className='position-absolute help'>
-                        <ArtistButton color='#fed12f' text='HELP' padding='0 1rem' fontSize="10px" border='1px solid #B4B4B5' height='40px' width='130px' />
-                    </div>
-                    <div style={{ width: '60%' }}>
+                    <div className="col-12 col-md-7">
                         <div className="artistIntro row">
                             <div className='rate-section x-4'>
                                 <h4 className="ArtistName">MICHEL G</h4>
@@ -72,25 +80,21 @@ const ConfirmDetails = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='aboutMe' style={{ width: '25%' }}>
-                        <div>
-                            <div className='py-5'>
-                                <h4>ABOUT ME</h4>
-                                <hr />
-                                <p>Carving is a painting technique that involves using tools to shape a form by cutting.
-                                </p>
-                            </div>
-                            <div className="readMore">
-                                <h6 className='text-end'>Read more</h6>
-                            </div>
-                        </div>
+                    <div className="col-12 col-lg-3 about_me_sec">
+                        <h4 className="aboutHeading">ABOUT ME</h4>
+                        <hr></hr>
+                        <p className="aboutParagraph">{artistPublicProfile && artistPublicProfile.bio}</p>
+                        <h6 className='read_more text-end'>Read more</h6>
+                    </div>
+                    <div className="col-12 help_button">
+                        <ArtistButton color='#fed12f' text='HELP' padding='0 1rem' fontSize="10px" border='1px solid #B4B4B5' height='40px' width='130px' />
                     </div>
                 </div>
 
                 {/* Task Details Section */}
                 <div className="row justify-content-center my-5">
                     <div className='col-md-9 taskDetails-sec'>
-                        <div className="row">
+                        <div className="row taskDetails_content">
                             <div className="col-10">
                                 <h4 className="headings taskDetails-headings p-0">TELL US THE DETAILS OF YOUR TASK</h4>
                             </div>
@@ -127,7 +131,7 @@ const ConfirmDetails = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-9 mt-5">
+                    <div className="col-12 col-lg-9 mt-5">
                         <div className="row">
                             <div className="col-md-12 card-details-sec py-3 px-0">
                                 <div className='px-3'>
@@ -135,11 +139,17 @@ const ConfirmDetails = () => {
                                     <h4 className="headings taskDetails-headings px-0 py-3">CARD DETAILS</h4>
                                 </div>
                                 <div>
-                                    <div className="card-input-group d-flex justify-content-between">
-                                        <div className="card-sign col-2"><BsCalendar /></div>
-                                        <input type="text" className="card-inputs col-2" placeholder="Card number" aria-label="Username" aria-describedby="basic-addon1" />
-                                        <input type="text" className="card-inputs col-2" placeholder="MM/YY" aria-label="Username" aria-describedby="basic-addon1" />
-                                        <input type="text" className="card-inputs col-2" placeholder="CVC" aria-label="Username" aria-describedby="basic-addon1" />
+                                    <div className="d-flex billing-input-group">
+                                        <div className="card-sign col-3"><BsCalendar /></div>
+                                        <div className="col-3">
+                                            <input type="text" className="card-inputs" placeholder="Card" aria-label="Username" aria-describedby="basic-addon1" />
+                                        </div>
+                                        <div className="col-3">
+                                            <input type="text" className="card-inputs" placeholder="MM/YY" aria-label="Username" aria-describedby="basic-addon1" />
+                                        </div>
+                                        <div className="col-3">
+                                            <input type="text" className="card-inputs" placeholder="CVC" aria-label="Username" aria-describedby="basic-addon1" />
+                                        </div>
                                     </div>
                                 </div>
                                 <div className='my-3 px-3'>
@@ -151,7 +161,7 @@ const ConfirmDetails = () => {
                             <div className='col-md-12 mobile-phone px-0'>
                                 <h4 className="headings taskDetails-headings px-3 py-3">MOBILE PHONE</h4>
                             </div>
-                            <div className="col-7">
+                            <div className="col-12 col-lg-7">
                                 <div className="phone-number d-flex justify-content-between">
                                     <h1 className="mobile">+1 647 755 9999</h1>
                                 </div>
@@ -214,9 +224,14 @@ const ConfirmDetails = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-md-12'>
-                                <ArtistButton color='#fff' text='CONFIRM & CHAT' border='1px solid #B4B4B5' padding='.3rem 3.5rem' fontSize='12px' />
+                            <div className='row reviewGalleryButtons'>
+                                <div className='col-12 col-lg-6 cancel'>
+                                    <Button color='#fff' text='CONFIRM & CHAT' padding='1px 0' fontWeight={matches ? 'normal' : '900'} fontSize={matches ? '12px' : '22px'} border='1.5px solid #B4B4B5' className='buttonDimensions' height={matches ? '40px' : '67px'} width={matches ? '222px' : '297px'} />
+                                </div>
                             </div>
+                            {/* <div className='col-md-12'>
+                                <ArtistButton color='#fff' text='CONFIRM & CHAT' border='1px solid #B4B4B5' padding='.3rem 3.5rem' fontSize='12px' />
+                            </div> */}
                         </div>
                     </div>
                 </div>

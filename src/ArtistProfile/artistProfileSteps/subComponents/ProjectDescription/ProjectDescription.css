@@ -216,3 +216,12 @@ input:focus {
     background-color: #fdd035;
     border-radius: 3rem;
 }
+
+@media only screen and (max-width:991px) {
+    .data-sec .description {
+        font-size: 15px !important;
+    }
+    .projectLocation-row .radioLabel-container {
+font-size: 13px !important;
+    }
+}

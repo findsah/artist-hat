@@ -5,13 +5,17 @@
     padding: 7rem 0;
 }
 
+.aboutArtistSec .about_me{
+    align-items: end;
+    grid-gap: 15px 0;
+}
 .artistCal-sec {
     padding: 3rem 0 0;
 }
 
-.headings {
+.calendar-sec .headings {
     object-fit: contain;
-    font-size: 34px;
+    font-size: 34px !important;
     font-weight: bolder;
     font-stretch: normal;
     font-style: normal;
@@ -48,8 +52,8 @@
 
 .artistGallerySec .imageCut {
     width: 3.2%;
-    top: 3%;
-    right: 3%;
+    top: 9px;
+    right: 9px;
 }
 
 .artistGallerySec .artistDetails {
@@ -64,7 +68,7 @@ abbr[title] {
     text-decoration: none !important;
 }
 
-.artistTimes {
+.calendar-sec .artistTimes {
     width: 90%;
     border-radius: 3rem;
     padding: 8px 60px;
@@ -86,6 +90,12 @@ abbr[title] {
 /* }
 .request-for{} */
 
+.calendar-sec .request-for{
+    margin-bottom: 30px;
+}
+.calendar-sec .select-and-continue{
+    justify-content: center;
+}
 .confirm-details {
     font-size: 17px;
     font-weight: 300;
@@ -101,10 +111,13 @@ abbr[title] {
     color: #3f250e !important;
 }
 
+/* Date-selector */
 .rdrNextPrevButton {
     display: none !important;
 }
-
+.rdrDayToday .rdrDayNumber span:after{
+    background: none !important;
+}
 .rdrDayNumber span {
     color: #9599b2 !important;
     font-size: 20px !important;
@@ -165,9 +178,7 @@ abbr[title] {
     background-color: #9599b2 !important;
 }
 
-.rdrInRange span {
-    color: red !important;
-}
+
 
 .rdrMonth {
     height: 400px !important;
@@ -179,6 +190,8 @@ abbr[title] {
 
 .rdrDays {
     height: 100% !important;
+    display: block !important;
+    
 }
 
 .rdrDayToday:not(.rdrDayPassive) .rdrInRange~.rdrDayNumber span:after,
@@ -213,4 +226,40 @@ abbr[title] {
 
 .rdrDayEndPreview {
     border: none !important;
+}
+
+@media only screen and (max-width:991px){
+    .artistGallerySec .imageCut {
+        width: 9%;
+    }
+    .calendar-sec .project-date,.rdrMonthAndYearPickers select{
+        font-size: 20px !important;
+    }
+    .rdrWeekDay, .rdrDay:not(.rdrDayPassive) .rdrInRange~.rdrDayNumber span,
+    .rdrDay:not(.rdrDayPassive) .rdrStartEdge~.rdrDayNumber span,
+    .rdrDay:not(.rdrDayPassive) .rdrEndEdge~.rdrDayNumber span,
+    .rdrDay:not(.rdrDayPassive) .rdrSelected~.rdrDayNumber span,.rdrDayNumber span{
+        font-size: 12px !important;
+    }
+    .rdrDay{
+        height: 10% !important;
+    }
+    .calendar-sec .headings {
+        font-size: 20px !important;
+    }
+    .calendar-sec .artistTimes {
+        font-size: 20px !important;
+    }
+    .rdrDays {
+        height: auto !important;
+        grid-gap: 35px 0;
+        display: flex !important;
+    }
+    .rdrMonth{
+        height: auto !important;
+    }
+    .rdrSelected, .rdrInRange, .rdrStartEdge, .rdrEndEdge {
+    height: 2rem !important;
+    top: -11px !important;
+}
 }

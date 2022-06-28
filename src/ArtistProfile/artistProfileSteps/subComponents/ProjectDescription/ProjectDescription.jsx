@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 // import StepsBar from '../../Components/stepsBar/stepsBar'
 import './ProjectDescription.css';
 import { MdAttachFile } from 'react-icons/md';
 import Button from '../../../../Components/button/button';
 const ProjectDescription = () => {
+  const [matches, setMatches] = useState(
+    window.matchMedia("(max-width: 991px)").matches
+  )
+  useEffect(() => {
+    window
+      .matchMedia("(max-width: 991px)")
+      .addEventListener('change', e => setMatches(e.matches));
+  }, []);
   return (
 
     <div className="data-sec container">
@@ -21,22 +29,15 @@ const ProjectDescription = () => {
         <div className="row address-input-row">
           <p className='project-location'>Your Project Location</p>
           <div className="address-input-group d-flex justify-content-between">
-            <input type="text" className="address-input" placeholder="Enter Street Address"
+            <input type="text" className="address-input"
               aria-label="Username" aria-describedby="basic-addon1" />
             <button className="input-group-text" id="basic-addon1">Unit or Apt #</button>
           </div>
         </div>
-
-        <div className="continue" >
-          <Button color='#fff'
-            textColor='#523105'
-            text='CONTINUE'
-            padding='6px'
-            height='67px'
-            width='427px'
-            fontSize="22px"
-            fontWeight='900'
-            border='1.5px solid #B4B4B5' />
+        <div className='row reviewGalleryButtons'>
+          <div className='col-12 col-lg-6 cancel'>
+            <Button textColor='#523105' color='#fff' text='CONTINUE' padding='1px 0' fontWeight={matches ? 'normal' : '900'} fontSize={matches ? '15px' : '22px'} border='1.5px solid #B4B4B5' className='buttonDimensions' height={matches ? '40px' : '67px'} width={matches ? '222px' : '427px'} />
+          </div>
         </div>
         {/* Project location Section */}
 
@@ -103,17 +104,10 @@ const ProjectDescription = () => {
             </div>
           </div>
         </div>
-
-        <div className="continue" >
-          <Button color='#fff'
-            textColor='#523105'
-            text='CONTINUE'
-            padding='6px'
-            height='67px'
-            width='427px'
-            fontSize="22px"
-            fontWeight='900'
-            border='1.5px solid #B4B4B5' />
+        <div className='row reviewGalleryButtons'>
+          <div className='col-12 col-lg-6 cancel'>
+            <Button textColor='#523105' color='#fff' text='CONTINUE' padding='1px 0' fontWeight={matches ? 'normal' : '900'} fontSize={matches ? '15px' : '22px'} border='1.5px solid #B4B4B5' className='buttonDimensions' height={matches ? '40px' : '67px'} width={matches ? '222px' : '427px'} />
+          </div>
         </div>
         {/* Task Details Section */}
         <div className="taskDetails-section">
@@ -160,16 +154,10 @@ const ProjectDescription = () => {
 
           </div>
         </div>
-        <div className="continue" >
-          <Button color='#fff'
-            textColor='#523105'
-            text='SEE ARTIST & PRICES'
-            padding='6px'
-            height='67px'
-            width='427px'
-            fontSize="22px"
-            fontWeight='900'
-            border='1.5px solid #B4B4B5' />
+        <div className='row reviewGalleryButtons'>
+          <div className='col-12 col-lg-6 cancel'>
+            <Button textColor='#523105' color='#fff' text='SEE ARTIST & PRICES' padding='1px 0' fontWeight={matches ? 'normal' : '900'} fontSize={matches ? '15px' : '22px'} border='1.5px solid #B4B4B5' className='buttonDimensions' height={matches ? '40px' : '67px'} width={matches ? '222px' : '427px'} />
+          </div>
         </div>
       </div>
     </div>

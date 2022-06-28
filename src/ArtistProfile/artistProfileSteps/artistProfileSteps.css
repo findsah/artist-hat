@@ -1,11 +1,11 @@
 .projectDes-sec {
     /* width: 1920px;
   height: 850px; */
-    padding: 7rem 0;
+    padding: 7rem 0  0;
     z-index: -2;
 }
 .artistProfileSteps .headings {
-    font-size: 45px !important;
+    font-size: 45px;
 }
 @media only screen and (max-width: 1919px) and (min-width: 1080px) {
     .aboutMe p {
@@ -32,3 +32,9 @@
         font-size: 30px !important;
     }
 }
+
+ @media only screen and (max-width : 991px){
+    .artistProfileSteps .headings {
+        font-size: 20px !important;
+    }
+ }
