@@ -6,8 +6,7 @@ const Button = ({ text, color, textColor, padding, fontSize, border, width, even
         <>
             <button
                 onClick={() => event()}
-                className='artistReviews'
-                style={{ backgroundColor: color, padding, border, width, fontSize, height, fontWeight, color: textColor }}
+                style={{ backgroundColor: color, padding, border, width, fontSize, height, fontWeight, color: textColor,borderRadius:'3rem' }}
             >{text}
             </button>
         </>

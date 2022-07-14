@@ -1,3 +1,6 @@
+.data-sec{
+    padding: 5%;
+}
 .data-sec .description {
     font-size: 20px;
     font-weight: 300;
@@ -224,4 +227,22 @@ input:focus {
     .projectLocation-row .radioLabel-container {
 font-size: 13px !important;
     }
+    .data-sec .summary-section p{
+        padding: 5% !important;
+    }
+    .data-sec .fileSize {
+    font-size: 10px !important;
+}
+.data-sec .tell-task-details{
+    grid-gap: 15px 0 !important;
+}
+.data-sec .address-input::placeholder {
+    text-align: center;
+    padding-left: 0 !important;
+    font-size: 12px !important;
+}
+.input-group-text {
+    width: 40% !important;
+    font-size: 12px !important;
+}
 }

@@ -35,6 +35,41 @@
 
  @media only screen and (max-width : 991px){
     .artistProfileSteps .headings {
+        font-size: 15px !important;
+    }
+    .taskersAndPrices .artists .profile_side .profile_img{
+        height: auto !important;
+    }
+    .taskersAndPrices .artist_filters{
+        max-width: 100% !important;
+    }
+    .taskersAndPrices .artists .profile_side .viewProfile_reviews,.skill_des,
+    .taskersAndPrices .artists .profile_side .profile_description {
+        text-align: left !important;
+        font-size: 10px !important;
+    }
+    .taskersAndPrices .artists .review_side .ratings_and_price .ratings .review_percentage {
+        font-size: 10px !important;
+    }
+    .taskersAndPrices .artists .review_side .ratings_and_price .price_sec .price{
+        font-size: 15px !important;
+    }
+    .taskersAndPrices .artists .review_side .ratings_and_price .ratings .artist_name{
         font-size: 20px !important;
+    }
+    .taskersAndPrices .artists .review_side .ratings_and_price .price_sec .great_value {
+    font-size: 10px !important;
+    }
+    .taskersAndPrices .artists .artistProfile{
+        align-items: center !important;
+    }
+    .taskersAndPrices .react-stars span {
+        font-size: 20px !important;
+    }
+    .taskersAndPrices .radioLabel-container {
+        font-size: 15px !important;
+    }
+    .taskersAndPrices .read_more {
+        font-size: 10px !important;
     }
  }

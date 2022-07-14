@@ -33,7 +33,6 @@ const AccountPassword = () => {
         const passwordReponse = await resetPassword(updatedPassword, userData.token, userData.slug);
         setResponseData(passwordReponse.data)
         if (passwordReponse.data.status === 'Password_Updated_Successfully') {
-            console.log('lsjlfdklsjflsjlfjslfjlsjflfjlsdjlfj')
             toast("Data Submited Successfully..!")
         }
     }
@@ -65,7 +64,7 @@ const AccountPassword = () => {
                         <div>
                             <label className='label-inputfields'>CONFIRM NEW PASSWORD</label>
                             <input type='password' name='password2' placeholder='Type your current password here' className='password-input-fields' onChange={onChangeHandler}></input>
-                            {responseData?.status ? responseData?.status === "Password Fields Didn't Match." && (
+                            {responseData?.status ? responseData?.status === "New Password Fields Didn't Match." && (
                                 <div className="errDiv">{responseData?.status}</div>
                             ) : (
                                 ""

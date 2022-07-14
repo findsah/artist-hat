@@ -4,13 +4,13 @@ import ReactStars from 'react-rating-stars-component';
 import '../taskersAndPrices.css'
 import Button from "../../../../../Components/button/button";
 const ArtistsList = ({ handleClick }) => {
-    
+
     const [matches, setMatches] = useState(
-        window.matchMedia("(max-width: 1919px)").matches
+        window.matchMedia("(max-width: 991px)").matches
     )
     useEffect(() => {
         window
-            .matchMedia("(max-width: 1919px)")
+            .matchMedia("(max-width: 991px)")
             .addEventListener('change', e => setMatches(e.matches));
     }, []);
     const ratingChanged = (newRating) => {
@@ -57,8 +57,8 @@ const ArtistsList = ({ handleClick }) => {
     return (
         <>
             <div className='container taskersAndPrices'>
-                <div className="row justify-content-between">
-                    <div className="col-4 artist_filters">
+                <div className="taskersAndPrices_content_row row">
+                    <div className="col-12 col-lg-4 artist_filters">
                         <div className="filter_bar">
                             <h2 className='main_headings'>DATE</h2>
                             <div className="buttons row">
@@ -109,9 +109,9 @@ const ArtistsList = ({ handleClick }) => {
                         </div>
 
                     </div>
-                    <div className="col-8 artists">
+                    <div className="col-12 col-lg-8 artists">
                         {artist.map((profile, index) => (
-                            <div className={`artistProfile ${(index % 2) === 0 ? 'artistProfileGrey' : ''}`} key={index} onClick={() => handleClick(2)}>
+                            <div className={`artistProfile reviewGalleryButtons ${(index % 2) === 0 ? 'artistProfileGrey' : ''}`} key={index} onClick={() => handleClick(2)}>
                                 <div className="profile_side col-4">
                                     <div className="profile_img">
                                         <img src={profileImg} alt="" className="img-fluid" />
@@ -122,16 +122,8 @@ const ArtistsList = ({ handleClick }) => {
                                     <div className="profile_description">
                                         You can chat with your artist, adjust task details, or change task time after booking.
                                     </div>
-                                    <div className="select_and_continue">
-                                        <Button color='#fff'
-                                            textColor='#523105'
-                                            text='SELECT & CONTINUE'
-                                            padding='6px'
-                                            height='67px'
-                                            width='100%'
-                                            fontSize={`${matches ? '15px' : '20px'}`}
-                                            fontWeight='900'
-                                            border='1.5px solid #B4B4B5' />
+                                    <div className='col-12 cancel'>
+                                        <Button color='#fff' text='SELECT & CONTINUE' padding={matches ? '0' : '1px 5px'} fontWeight={matches ? 'normal' : '500'} fontSize={matches ? '8px' : '15px'} border='1.5px solid #B4B4B5' className='buttonDimensions' height={matches ? '30px' : '67px'} width={matches ? '100%' : '100%'} />
                                     </div>
                                 </div>
                                 <div className="review_side col-7">

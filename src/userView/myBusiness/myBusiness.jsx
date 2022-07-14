@@ -15,15 +15,15 @@ const MyBusiness = () => {
                     <div className="main-headings">My Earnings</div>
                     <div className="earnings">
                         <div className="earning col-4">
-                            <div className="price">$60</div>
+                           <h3 className="price">$60</h3>
                             <div className="sub-heading">Total Earnings</div>
                         </div>
                         <div className="earning col-4">
-                            <div className="price">$60</div>
+                           <h3 className="price">$60</h3>
                             <div className="sub-heading">Total Earnings</div>
                         </div>
                         <div className="earning col-4">
-                            <div className="price"><strong>$6</strong>0</div>
+                            <h3 className="price">$60</h3>
                             <div className="sub-heading">Total Earnings</div>
                         </div>
                     </div>

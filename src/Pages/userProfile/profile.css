@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.createprofile .radioLabel-container {
+padding-left: 5% !important;
+}
 .createprofileH1 {
     width: 50%;
     margin: auto;

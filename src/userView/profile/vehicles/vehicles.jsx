@@ -16,6 +16,14 @@ const Vehicles = () => {
     const [artistData, setArtistData] = useState()
     const [roleRestrictions, setRoleRestrictions] = useState(
     );
+    const [matches, setMatches] = useState(
+        window.matchMedia("(max-width: 1919px)").matches
+    )
+    useEffect(() => {
+        window
+            .matchMedia("(max-width: 1919px)")
+            .addEventListener('change', e => setMatches(e.matches));
+    }, []);
     const [selectedRestrictions, setSelectedRestrictions] = useState({
         vehicless: false,
         bike: false,
@@ -147,11 +155,14 @@ const Vehicles = () => {
                    
 
                 </div>
-                <div className='row pt-5'>
-                    <div className='col-12 text-center'>
-                        <Button color='#fdd043' text='SUBMIT' padding='2px 60px' fontSize="10px" border='1px solid #B4B4B5' event={handlSubmit} />
+                <div className='row pt-5 accountButtons'>
+                        <div className='col-12 col-lg-6 button'>
+                            <Button color='#fdd043' textColor='#523105' text='SUBMIT' padding='2% 0' fontWeight={matches ? '500' : '600'} fontSize={matches ? '14px' : '17px'} border='1.5px solid #B4B4B5' className='buttonDimensions' width={matches ? '100%' : '297px'} event={handlSubmit} />
+                        </div>
+                        <div className='col-12 col-lg-6 button'>
+                            <Button color='#fff' textColor='#523105' text='EDIT' padding='2% 0' fontWeight={matches ? '500' : '600'} fontSize={matches ? '14px' : '17px'} border='1.5px solid #B4B4B5' className='buttonDimensions' width={matches ? '100%' : '297px'} />
+                        </div>
                     </div>
-                </div>
             </div>
             <ToastContainer
                 theme='light'

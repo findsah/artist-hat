@@ -11,7 +11,7 @@ const Transactions = () => {
     return (
         <>
             <div className='pb-4'><h2 className='h1_heading'>TAX INFO</h2></div>
-            <div className='transactionHistory-sec container pt-2 pb-5'>
+            <div className='transactionHistory-sec pt-2 pb-5'>
                 {currentPage === 1 ? (
                     <div className='row transactionHistory-row'>
                         <div className="download-section p-0 mb-4">
@@ -23,29 +23,29 @@ const Transactions = () => {
                         </div>
                         <div className='taxInfo-description-div'>
                             <div className='row justify-content-between'>
-                                <div className="col-6">
+                                <div className="col-6 transaction_col">
                                     <div>
                                         <h2 className='h2-heading'>PAINTING ART IN TORONTO</h2>
                                         <h4 className='h4-heading'>Client: JENNIER F</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$31.00/hr * 2 hrs</h4>
                                         <h4 className='h4-heading'>Tip:</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>Total</h4>
                                         <h4 className='h1-heading'>Disbursed To Bank</h4>
                                     </div>
                                 </div>
-                                <div className="col-4">
-                                    <div style={{ marginBottom: '4.5rem' }}>
+                                <div className="col-4 transaction_col">
+                                    <div >
                                         <h4 className='h4-heading'>OCT.22, 2020</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$50.00</h4>
                                         <h4 className='h4-heading'>$18,24</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>$68.24</h4>
                                         <h4 className='h1-heading'>$68.24</h4>
                                     </div>
@@ -53,29 +53,29 @@ const Transactions = () => {
                             </div>
 
                             <div className='row justify-content-between report-second-row py-3'>
-                                <div className="col-6">
+                                <div className="col-6 transaction_col">
                                     <div>
                                         <h2 className='h2-heading'>PAINTING ART IN TORONTO</h2>
                                         <h4 className='h4-heading'>Client: JENNIER F</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$31.00/hr * 2 hrs</h4>
                                         <h4 className='h4-heading'>Tip:</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>Total</h4>
                                         <h4 className='h1-heading'>Disbursed To Bank</h4>
                                     </div>
                                 </div>
-                                <div className="col-4">
-                                    <div style={{ marginBottom: '4.5rem' }}>
+                                <div className="col-4 transaction_col">
+                                    <div >
                                         <h4 className='h4-heading'>OCT.22, 2020</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$50.00</h4>
                                         <h4 className='h4-heading'>$18,24</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>$68.24</h4>
                                         <h4 className='h1-heading'>$68.24</h4>
                                     </div>
@@ -83,29 +83,29 @@ const Transactions = () => {
                             </div>
 
                             <div className='row justify-content-between report-third-row py-3'>
-                                <div className="col-6">
+                                <div className="col-6 transaction_col">
                                     <div>
                                         <h2 className='h2-heading'>PAINTING ART IN TORONTO</h2>
                                         <h4 className='h4-heading'>Client: JENNIER F</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$31.00/hr * 2 hrs</h4>
                                         <h4 className='h4-heading'>Tip:</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>Total</h4>
                                         <h4 className='h1-heading'>Disbursed To Bank</h4>
                                     </div>
                                 </div>
-                                <div className="col-4">
-                                    <div style={{ marginBottom: '4.5rem' }}>
+                                <div className="col-4 transaction_col">
+                                    <div >
                                         <h4 className='h4-heading'>OCT.22, 2020</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$50.00</h4>
                                         <h4 className='h4-heading'>$18,24</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>$68.24</h4>
                                         <h4 className='h1-heading'>$68.24</h4>
                                     </div>
@@ -119,29 +119,29 @@ const Transactions = () => {
                     <div className='row justify-content-end'>
                         <div className='col-12 col-lg-10 taxInfo-description-div'>
                             <div className='row justify-content-between'>
-                                <div className="col-6">
+                                <div className="col-6 transaction_col">
                                     <div>
                                         <h2 className='h2-heading'>PAINTING ART IN TORONTO</h2>
                                         <h4 className='h4-heading'>Client: JENNIER F</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$31.00/hr * 2 hrs</h4>
                                         <h4 className='h4-heading'>Tip:</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>Total</h4>
                                         <h4 className='h1-heading'>Disbursed To Bank</h4>
                                     </div>
                                 </div>
-                                <div className="col-4">
-                                    <div style={{ marginBottom: '4.5rem' }}>
+                                <div className="col-4 transaction_col">
+                                    <div >
                                         <h4 className='h4-heading'>OCT.22, 2020</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$50.00</h4>
                                         <h4 className='h4-heading'>$18,24</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>$68.24</h4>
                                         <h4 className='h1-heading'>$68.24</h4>
                                     </div>
@@ -149,29 +149,29 @@ const Transactions = () => {
                             </div>
 
                             <div className='row justify-content-between report-second-row py-3'>
-                                <div className="col-6">
+                                <div className="col-6 transaction_col">
                                     <div>
                                         <h2 className='h2-heading'>PAINTING ART IN TORONTO</h2>
                                         <h4 className='h4-heading'>Client: JENNIER F</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$31.00/hr * 2 hrs</h4>
                                         <h4 className='h4-heading'>Tip:</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>Total</h4>
                                         <h4 className='h1-heading'>Disbursed To Bank</h4>
                                     </div>
                                 </div>
-                                <div className="col-4">
-                                    <div style={{ marginBottom: '4.5rem' }}>
+                                <div className="col-4 transaction_col">
+                                    <div >
                                         <h4 className='h4-heading'>OCT.22, 2020</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$50.00</h4>
                                         <h4 className='h4-heading'>$18,24</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>$68.24</h4>
                                         <h4 className='h1-heading'>$68.24</h4>
                                     </div>
@@ -179,29 +179,29 @@ const Transactions = () => {
                             </div>
 
                             <div className='row justify-content-between report-third-row py-3'>
-                                <div className="col-6">
+                                <div className="col-6 transaction_col">
                                     <div>
                                         <h2 className='h2-heading'>PAINTING ART IN TORONTO</h2>
                                         <h4 className='h4-heading'>Client: JENNIER F</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$31.00/hr * 2 hrs</h4>
                                         <h4 className='h4-heading'>Tip:</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>Total</h4>
                                         <h4 className='h1-heading'>Disbursed To Bank</h4>
                                     </div>
                                 </div>
-                                <div className="col-4">
-                                    <div style={{ marginBottom: '4.5rem' }}>
+                                <div className="col-4 transaction_col">
+                                    <div>
                                         <h4 className='h4-heading'>OCT.22, 2020</h4>
                                     </div>
-                                    <div className='my-5'>
+                                    <div>
                                         <h4 className='h4-heading'>$50.00</h4>
                                         <h4 className='h4-heading'>$18,24</h4>
                                     </div>
-                                    <div className='mt-5'>
+                                    <div>
                                         <h4 className='h1-heading'>$68.24</h4>
                                         <h4 className='h1-heading'>$68.24</h4>
                                     </div>

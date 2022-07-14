@@ -33,7 +33,7 @@ const SpecificArtist = () => {
             <div className="aboutArtisInnerCont">
 
                 <AboutArtist artistMdcoL='3' data={artistPublicProfile && artistPublicProfile} />
-                <div className="row align-items-end">
+                <div className="row aboutMe_row">
                     <div className="col-12 col-lg-3 text-center">
                         <ArtistButton color='#fed12f' text='HELP'
                             fontSize="10px"

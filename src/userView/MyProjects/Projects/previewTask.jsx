@@ -1,7 +1,16 @@
 import React, {useState, useEffect} from 'react'
+import Button from '../../../Components/button/button'
 
 const PreviewTask = () => {
 const [taskData, setTaskData] = useState()
+const [matches, setMatches] = useState(
+    window.matchMedia("(max-width: 1919px)").matches
+)
+useEffect(() => {
+    window
+        .matchMedia("(max-width: 1919px)")
+        .addEventListener('change', e => setMatches(e.matches));
+}, []);
     useEffect(() => {
         const items = JSON.parse(localStorage.getItem('taskData'));
         if (items) {
@@ -17,7 +26,7 @@ const [taskData, setTaskData] = useState()
                     <h2 className='h2-heading text-center py-3'>YOUR ACCOUNT</h2>
                     <h5 className='closing-message'>CLOSING MESSAGES</h5>
                     <div className="message">
-                        <p>
+                        <p className="paragraph-2">
                             Thanks for hiring me for your project! If you’d
                             Like to hire me again in the future, check out my profile where you can see all my skills and rates https://ah.co/michel-m-1.
                         </p>
@@ -58,8 +67,13 @@ const [taskData, setTaskData] = useState()
                         <div className="sub-total">Total</div>
                         <div className="sub-total">$77.97</div>
                     </div>
-                    <div className="data-row">
-                        <button className='preview-button'>Preview</button>
+                    <div className='row pt-5 accountButtons'>
+                        <div className='col-12 col-lg-6 button'>
+                            <Button color='#fdd043' textColor='#523105' text='SUBMIT' padding='2% 0' fontWeight='600' fontSize="30px" border='1.5px solid #B4B4B5' className='buttonDimensions' width={matches ? '100%' : '297px'} />
+                        </div>
+                        <div className='col-12 col-lg-6 button'>
+                            <Button color='#fff' textColor='#523105' text='EDIT' padding='2% 0' fontWeight='600' fontSize="30px" border='1.5px solid #B4B4B5' className='buttonDimensions' width={matches ? '100%' : '297px'} />
+                        </div>
                     </div>
                 </div>
 

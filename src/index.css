@@ -1,8 +1,13 @@
+@import url('http://fonts.cdnfonts.com/css/montserrat'); 
 body {
     /* overflow-y: scroll;
     overflow-x: hidden; */
     margin: 0;
     font-family: "Montserrat";
+  font-stretch: normal !important;
+  font-style: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
 }
 :root,
 body,
@@ -35,3 +40,4 @@ ul {
     vertical-align: baseline;
     background-color: transparent;
 }
+

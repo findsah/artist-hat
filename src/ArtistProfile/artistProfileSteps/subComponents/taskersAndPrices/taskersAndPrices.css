@@ -2,10 +2,12 @@
     max-width: 100% !important;
     margin: 0 !important;
 }
-
+.taskersAndPrices_content_row{
+    justify-content: space-between;
+    grid-gap: 15px 0;
+}
 .taskersAndPrices .artist_filters {
     max-width: 32% !important;
-    height: 1385px;
 }
 
 .taskersAndPrices .filter_bar {
@@ -97,10 +99,12 @@
 .reviewGalleryButtons {
     grid-gap: 15px 0;
 }
-.reviewGalleryButtons .save{
+
+.reviewGalleryButtons .save {
     text-align: end;
 }
-.reviewGalleryButtons .cancel{
+
+.reviewGalleryButtons .cancel {
     text-align: start;
 }
 
@@ -264,6 +268,10 @@
     padding: 7rem 0;
 }
 
+.aboutArtistSec .aboutMe_row{
+    grid-gap: 15px 0;
+    align-items: flex-end;
+}
 .aboutArtisInnerCont .artistAboutSection {
     margin: 0 3.9%;
     position: relative;
@@ -292,7 +300,7 @@
 }
 
 .reviews-row {
-    grid-gap: 5%;
+    grid-gap: 10px 0;
     height: 1000px;
     border-radius: 1.5rem;
     overflow: auto;
@@ -361,6 +369,10 @@
         width: 80px;
         height: auto;
     }
+    .review-date,
+    .review-content {
+        font-size: 15px;
+    }
 
 }
 
@@ -373,11 +385,27 @@
     .reviews-sec {
         padding: 0 !important;
     }
-    .reviewGalleryButtons .save ,.reviewGalleryButtons .cancel{
+
+    .reviewGalleryButtons .save,
+    .reviewGalleryButtons .cancel {
         text-align: center !important;
     }
+
     .review-date,
-.review-content {
-    font-size: 12px;
-}
+    .review-content {
+        font-size: 12px;
+    }
+
+    .taskersAndPrices .artists .review_side .reviewee .review_and_name .name_and_date,
+    .taskersAndPrices .artists .review_side .reviewee .review_and_name .review {
+        font-size: 10px !important;
+    }
+
+    .taskersAndPrices .artists .review_side .reviewee .image {
+        width: 50px !important;
+    }
+
+    .taskersAndPrices .artists .review_side .reviewee {
+        width: 100% !important;
+    }
 }

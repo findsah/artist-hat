@@ -167,7 +167,7 @@
 
 .skills-inner-sec .skills {
     font-size: 26px;
-    font-weight: bolder !important;
+    font-weight: 600 ;
     text-align: start;
     color: #523105;
 }
@@ -353,7 +353,6 @@
 
 .userProfile-leftbar .user-name {
     font-size: 20px !important;
-    color: #3f250e !important;
 }
 
 .profile_nav {

@@ -49,3 +49,10 @@ textarea::placeholder {
         outline: none;
       
  } 
+
+ 
+ @media only screen and (max-width: 1919px) and (min-width: 1080px) {
+    .about-paragraph {
+        font-size: 14px !important;
+    }
+}

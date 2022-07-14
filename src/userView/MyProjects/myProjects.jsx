@@ -20,14 +20,14 @@ const MyProjects = () => {
                 </div>
             </div>
             <div className='projects-content account_content py-2'>
-            <div className='col-12 pl-lg-0'><h2 className='h1_heading my-projects-heading'>MY PROJECTS</h2></div>
+                <div className='col-12 pl-lg-0'><h2 className='h1_heading my-projects-heading'>MY PROJECTS</h2></div>
                 {tabActive === 1 ? (
-                    <Scheduled/>
+                    <Scheduled />
                 ) : ''}
                 {tabActive === 2 ? (
-                   <Completed/>
+                    <Completed />
                 ) : ''}
-               
+
             </div>
         </div>
     )

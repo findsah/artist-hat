@@ -14,7 +14,7 @@ const ProjectDescription = () => {
   }, []);
   return (
 
-    <div className="data-sec container">
+    <div className="data-sec">
       <div className="row mt-5">
         <p className='description'>It is a long established fact that a reader will be distracted
           by the readable content of a page when
@@ -30,7 +30,7 @@ const ProjectDescription = () => {
           <p className='project-location'>Your Project Location</p>
           <div className="address-input-group d-flex justify-content-between">
             <input type="text" className="address-input"
-              aria-label="Username" aria-describedby="basic-addon1" />
+              aria-label="Username" aria-describedby="basic-addon1" placeholder='Describe your project' />
             <button className="input-group-text" id="basic-addon1">Unit or Apt #</button>
           </div>
         </div>

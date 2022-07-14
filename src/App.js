@@ -23,6 +23,7 @@ import MyBusiness from './userView/myBusiness/myBusiness';
 import { useDispatch } from 'react-redux';
 import { getMapLocs } from './Redux/artistProfile/ArtistData';
 
+window.Buffer = window.Buffer || require("buffer").Buffer;
 export const UserContext = createContext()
 function App() {
   const [logedIn, setLogedIn] = useState(false)

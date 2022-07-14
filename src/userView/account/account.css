@@ -1,3 +1,6 @@
+.transactionHistory-sec{
+    padding: 5%;
+}
 .userview-account {
     padding: 50px 76.2px 85.4px 77px;
     object-fit: contain;
@@ -82,6 +85,12 @@
 
 
 
+.transactionHistory-sec .transaction_col {
+    grid-gap: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 @media only screen and (max-width: 1919px) and (min-width: 1080px) {
     .account_content .h1_heading {
@@ -156,7 +165,7 @@
         height: 277.3px !important;
     }
 
-    
+
 
     .Account-use .radioLabel-container {
         font-size: 18px !important;
@@ -194,7 +203,8 @@
     .transactionHistory-row .taxInfo-description-div {
         width: 95% !important;
     }
-    .cancelTask-sec .cancel_task{
+
+    .cancelTask-sec .cancel_task {
         width: 222px;
     }
 }
@@ -293,9 +303,26 @@
     .cancelTask-sec .cancelTask-description-div {
         text-align: center !important;
     }
-    .accountBalance-sec .accountBalance_row, .accountBalance_row2{
+
+    .accountBalance-sec .accountBalance_row,
+    .accountBalance_row2 {
         justify-content: start !important;
         margin-left: 0 !important;
+    }
+
+    /* Tax-info */
+    .transactionHistory-sec .h2-heading,
+    .transactionHistory-sec .h4-heading,
+    .transactionHistory-sec .h1-heading,
+    .download-transaction-history p {
+        font-size: 13px !important;
+    }
+    .transactionHistory-sec .transactionHistory-row{
+        justify-content: start !important;
+    }
+
+    .transactionHistory-row .taxInfo-description-div {
+        width: 100% !important;
     }
 }
 

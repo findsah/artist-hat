@@ -28,7 +28,7 @@ const ConfirmTask = () => {
                     <h2 className='h2-heading text-center py-3'>YOUR ACCOUNT</h2>
                     <h5 className='closing-message'>CLOSING MESSAGES</h5>
                     <div className="message">
-                        <p>
+                        <p className='paragraph-1'>
                             Thanks for hiring me for your project! If you’d
                             Like to hire me again in the future, check out my profile where you can see all my skills and rates https://ah.co/michel-m-1.
                         </p>
@@ -69,7 +69,7 @@ const ConfirmTask = () => {
                         </label>
                     </div>
                     <div className="row justify-content-center mt-5">
-                        <Link to={'/userview/preview-task'} className='col-4' >
+                        <Link to={'/artistView/preview-task'} className='col-4' >
                             <button className='preview-button'>Preview</button>
                         </Link>
                     </div>

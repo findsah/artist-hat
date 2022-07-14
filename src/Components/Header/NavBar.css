@@ -116,7 +116,7 @@
     object-fit: cover;
 }
 
-@media only screen and (max-width: 1919px) and (min-width: 1080px) {
+@media only screen and (max-width: 1919px) and (min-width: 991px) {
     .navbar-collapse {
         flex-direction: column-reverse !important;
     }

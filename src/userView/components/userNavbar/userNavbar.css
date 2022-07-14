@@ -41,8 +41,9 @@
 .user-lowerNavbar{
     margin-right: auto;
 }
-.nav-item {
-    font-weight: bold;
+.userview-sec .nav-item {
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .link {

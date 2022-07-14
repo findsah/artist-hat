@@ -38,7 +38,7 @@
     letter-spacing: normal;
     text-align: center;
     color: #52912e;
-    padding: 53px 0;
+    padding: 25px 0;
 }
 
 .status-img {
@@ -78,7 +78,7 @@
 .otherDetails {
     grid-gap: 10px;
     display: flex;
-    margin: 9px 0;
+    margin: 5px 0;
     align-items: center;
 }
 
@@ -148,7 +148,7 @@
     color: #523105;
 }
 
-.confirmTask input{
+.confirmTask input {
     width: 250px;
     border: none;
     text-align: right;
@@ -221,13 +221,12 @@
 }
 
 .projects-button {
-    height: 53.5px;
+    height: 35.5px;
     border-radius: 26.8px;
     border: solid 1px #707070;
     background-color: #FFF;
     color: #523105;
-    padding: 10x 0;
-    font-size: 10px;
+    padding: 10px;
     font-size: 16px;
     font-weight: 600;
     font-stretch: normal;
@@ -256,9 +255,10 @@
     border-radius: 35px;
 }
 
-.projectsCofirmation .mapArea #map{
+.projectsCofirmation .mapArea #map {
     height: 100% !important;
 }
+
 .projectsCofirmation .modal-body {
     padding: 10px 140px 0 60px;
 
@@ -332,6 +332,10 @@
     text-align: left;
 }
 
+.confirmTask-sec .message .paragraph-1,.confirmTask-sec .message .paragraph-2{
+    font-size: 16px;
+    line-height: 1.6;
+}
 .confirm-taskBar .paragraph-2 {
     margin-top: 3.5%;
 }
@@ -482,5 +486,111 @@ input:checked+.slider:before {
         font-size: 21px !important;
         padding: 2px 10px !important;
 
+    }
+}
+
+@media (max-width: 991px) {
+    .content-section {
+        padding: 25px 40px;
+    }
+
+    .user-projects {
+        padding: 10px !important;
+    }
+
+    .projects-button {
+        font-size: 10px;
+    }
+
+    .rate-bar-section {
+        display: block;
+    }
+
+    .rate-bar-section .call, .rate-bar-section .message {
+        margin-bottom: 5px;
+    }
+
+    .rate-bar {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .rate-bar .rate {
+        width: 25%;
+        border-radius: 30px;
+    }
+}
+
+@media (max-width: 512px) {
+    .content-section {
+        padding: 10px 20px;
+    }
+
+    .buttons-bar {
+        display: block;
+        padding: 0;
+    }
+
+    .projects-button {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .content-section .project-card {
+        padding: 0 12px 12px;
+    }
+
+    .intro-sec .intro {
+        margin-left: 10px;
+    }
+
+    .intro-sec .intro .name {
+        font-size: 16px;
+    }
+
+    .intro-sec .intro .skill {
+        font-size: 10px;
+    }
+
+    .skills-inner-sec {
+        border-radius: 2rem;
+    }
+
+    .account_nav_item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .account-tabs {
+        border-radius: 2rem;
+    }
+
+    .skills-inner-sec .skills, .skills-inner-sec, .pickheading.pickheading, .painttext, .vehicles-sec .heading-4 {
+        font-size: 12px;
+    }
+
+    .otherDetails .icon {
+        margin-top: 0;
+    }
+
+    .otherDetails .icon img {
+        width: 12px;
+    }
+
+    .otherDetails .time-and-date {
+        font-size: 12px;
+    }
+
+    .otherDetails .location {
+        font-size: 12px;
+    }
+
+    .otherDetails .details .detail-data {
+        font-size: 12px;
+    }
+
+    .account_content .h1_heading {
+        font-size: 20px;
+        margin-bottom: 16px;
     }
 }
