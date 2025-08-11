@@ -22,7 +22,7 @@
     "react-circular-progressbar": "^2.0.4",
     "react-country-flag": "^3.0.2",
     "react-date-range": "^1.4.0",
-    "react-day-picker": "^8.0.0-beta.35",
+    "react-day-picker": "^8.10.1",
     "react-dom": "^17.0.2",
     "react-dropdown-date": "^2.2.7",
     "react-error-overlay": "^6.0.9",
