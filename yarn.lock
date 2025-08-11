@@ -9396,10 +9396,10 @@ react-date-range@^1.4.0:
     react-list "^0.8.13"
     shallow-equal "^1.2.1"
 
-react-day-picker@^8.0.0-beta.35:
-  version "8.0.0-beta.35"
-  resolved "https://registry.npmjs.org/react-day-picker/-/react-day-picker-8.0.0-beta.35.tgz"
-  integrity sha512-LtqtuWZa68Mv0Cni3yIOYg1yJ542KtU5GSz7cv2htsMDD96vigg6i3hQpuZ7ait91AT42UMa9uc41JwY98BZIQ==
+react-day-picker@^8.10.1:
+  version "8.10.1"
+  resolved "https://registry.yarnpkg.com/react-day-picker/-/react-day-picker-8.10.1.tgz#4762ec298865919b93ec09ba69621580835b8e80"
+  integrity sha512-TMx7fNbhLk15eqcMt+7Z7S2KF7mfTId/XJDjKE8f+IUcFn0l08/kI4FiYTL/0yuOLmEcbR4Fwe3GJf/NiiMnPA==
 
 react-dev-utils@^12.0.1:
   version "12.0.1"
